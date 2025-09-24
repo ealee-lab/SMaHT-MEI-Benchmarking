@@ -1,0 +1,11 @@
+"""
+# —————————————————————————————————
+# running_commands.txt
+# SMaHT MEI Working Group
+# Last Modified: 2025.09
+# —————————————————————————————————
+"""
+
+
+6. cuteSV
+cuteSV ${BAM} ${REFERENCE} ${OUTPUT} ${RESULT_PAHT} --min_support 1
