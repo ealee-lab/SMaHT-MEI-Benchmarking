@@ -7,7 +7,6 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 
 ## Code Availability 
 ### sMEI detection benchmark
-#### sMEI detection methods (WGS-based and MEI-targeted seqeuncing) 
 * xTea_mosaic (v0.1.9) : https://github.com/parklab/xTea
 * MELT (v2.2.2): https://melt.igs.umaryland.edu/index.php
 * RetroSom (v2): https://github.com/Czhuofu/RetroSomV2
@@ -15,10 +14,12 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * xTea_long (v0.1.0): https://github.com/parklab/xTea (--branch xTea_long_release_v0.1.0)
 * cuteSV (v2.1.2): https://github.com/tjiangHIT/cuteSV
 * Sniffles2 (v2.6.3): https://github.com/fritzsedlazeck/Sniffles
-
-* Runninng commands for above methods: '''./benchmark/running_command.txt 
+* Runninng commands for above WGS-based methods: ./benchmark/running_command.txt
+* TEnCATS: https://dx.doi.org/10.17504/protocols.io.kqdg3q66ev25/v1 (For the molecular protocol), https://github.com/Boyle-Lab/NanoPal-Snakemake (For NanoPal)
 
 
 ### Haplotype phasing and DSA
 
-### Source tracing 
+* LRPhasing: https://github.com/wjhlang/LRPhasing
+* PhaseBlockExtension: https://github.com/wjhlang/PhaseBlockExtension 
+* DSA-based analysis: https://github.com/wjhlang/SMaHT-sMEI
