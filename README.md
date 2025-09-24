@@ -23,3 +23,6 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * LRPhasing: https://github.com/wjhlang/LRPhasing
 * PhaseBlockExtension: https://github.com/wjhlang/PhaseBlockExtension 
 * DSA-based analysis: https://github.com/wjhlang/SMaHT-sMEI
+
+## Citation 
+* Wang et al., [Multi-platform framework for tracing low-frequency mosaic somatic retrotransposition in human tissues](), bioxriv, 2025, ``
