@@ -40,8 +40,14 @@ In run_xTea_pipeline.sh:
 python ${XTEA_PATH}"l_main.py" -C -b ${BAM_LIST} -r ${REF} -p ${TMP} -o ${PREFIX}"candidate_list_from_clip.txt"  -n 23 -w 75 --user -c 1 
 python ${XTEA_PATH}"l_main.py" -A -b ${BAM_LIST} -r ${REF} -p ${TMP} -i ${PREFIX}"candidate_list_from_clip.txt" -o ${PREFIX}"all_ins_seqs.fa" --rep ${REP_LIB} -n 
 
+To generate DSA-based aligned sample:
+Set the parameters related to mapping quaility to 0 in global_values.py
+
 6. cuteSV
 cuteSV ${BAM} ${REFERENCE} ${OUTPUT} ${RESULT_PATH} --min_support 1
+
+For generate DSA-based aligned sample:
+cuteSV ${BAM} ${REFERENCE (DSA)} ${OUTPUT} ${RESULT_PATH} --min_support 1 --min_mapq 0
 
 7. Sniffles2
 Tuning --minsupport:
@@ -49,3 +55,6 @@ sniffles --input ${BAM} --vcf ${OUTPUT} --reference ${REFERENCE} --tandem-repeat
 
 Mosaic mode:
 sniffles --input ${BAM} --vcf ${OUTPUT} --reference ${REFERENCE} --tandem-repeats ${annotaion.bed} --mosaic --mosaic-af-min 0 
+
+For generate DSA-based aligned sample:
+sniffles --input ${BAM} --vcf ${OUTPUT} --reference ${REFERENCE} --tandem-repeats ${annotaion.bed} --minsupport 1 --mapq 0
