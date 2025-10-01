@@ -2,7 +2,7 @@
 # —————————————————————————————————
 # running_commands.txt
 # SMaHT MEI Working Group
-# Last Modified: 2025.09
+# Last Modified: 2025.10
 # —————————————————————————————————
 """
 
@@ -45,7 +45,7 @@ cuteSV ${BAM} ${REFERENCE} ${OUTPUT} ${RESULT_PATH} --min_support 1
 
 7. Sniffles2
 Tuning --minsupport:
-sniffles --input ${BAM} --vcf ${OUTPUT} --reference ${REFERENCE} --tandem-repeats ${annotaion.bed} --minsupport 1
+sniffles --input ${BAM} --vcf ${OUTPUT} --reference ${REFERENCE} --tandem-repeats ${annotaion.bed} --minsupport 1 --mosaic-af-min 0 
 
 Mosaic mode:
 sniffles --input ${BAM} --vcf ${OUTPUT} --reference ${REFERENCE} --tandem-repeats ${annotaion.bed} --mosaic --mosaic-af-min 0 
