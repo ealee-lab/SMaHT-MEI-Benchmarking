@@ -6,6 +6,46 @@
 # —————————————————————————————————
 """
 
+1. xTea_mosaic
+To generate a shell script called run_xTea_pipeline.sh:
+xtea -M -U -i ${SAMPLE_LIST} -b ${BAM_LIST} -x null -p ${RESULT_PATH} -o submit_jobs.sh -l ${REPEAT_LIBRARY_DIRECTORY} -r ${REF} -g ${annotation.bed} --xtea ${XTEA_PATH} -f 5907 -y ${ELEMENT_TYPE} --nclip 2 --cr 0 --nd 1 --nfclip 1 --nfdisc 1 --blacklist ${BLACK_LIST}
+
+In run_xTea_pipeline.sh:
+python ${XTEA_PATH}"x_TEA_main.py" --cov 1000 --mosaic -i ${BAM_LIST} --lc 2 --rc 2 --cr 0  -r ${L1_COPY_WITH_FLANK} -a ${ANNOTATION} --cns ${L1_CNS} --ref ${REF} -p ${TMP} -o ${PREFIX}"candidate_list_from_clip.txt"  -n 23 --cp ${RESULT_PATH}/pub_clip/ --user 
+python ${XTEA_PATH}"x_TEA_main.py" --cov 1000 -D --somatic -i ${PREFIX}"candidate_list_from_clip.txt" --nd 1 --ref ${REF} -a ${ANNOTATION} -b ${BAM_LIST} -p ${TMP} -o ${PREFIX}"candidate_list_from_disc.txt" -n 23 --user
+
+2. MELT
+To reduce running times:
+samtools sort -n -@ 10 -o ${output_sortbyname.bam} ${input.bam}
+samtools fixmate -@ 10 ${output_sortbyname.bam} ${output-fixmate.bam}
+samtools sort -@ 10 -o ${output-fixmate-sort.bam} ${output-fixmate.bam} 
+samtools index -b ${output-fixmate-sort.bam} -@ 10 
+
+java -Xmx200G -jar MELTv2.2.2/MELT.jar Single -a -h ${REF} -bamfile ${BAM} -n ${annotation.bed} -t ${mei_list.txt} -w ${RESULT_PATH}
+
+
+3. RetroSom
+Singularity_Slurm_RetroSomV2.6.sh -o ${RESULT_PATH} -i ${SAMPLE_ID} -m <download_path> -r -g hg38 -t 3 -c ${BAM} -n ${maximum number of supporting reads to be considered as a putative somatic insertion (30% of the sample depth)} -p ${P-value}
+
+
+4. PALMER
+PALMER --input ${BAM} --workdir ${RESULT_PATH} --ref_ver ${REF_VER} --output ${OUTPUT_NAME} --type ${ELEMENT_TYPE} --mode raw --chr ${CHR} --ref_fa ${REF}
+
+5. xTea_long
+To generate a shell script called run_xTea_pipeline.sh:
+xtea_long -i ${SAMPLE_LIST} -b ${BAM_LIST} -p ${RESULT_PATH} -o submit_jobs.sh --rmsk ${reference full-length L1 annotation file}
+--rep ${REPEAT_LIBRARY_DIRECTORY} -r ${REF} --xtea ${XTEA_PATH} -y ${ELEMENT_TYPE} --cns ${L1 consensus sequence file}
+
+In run_xTea_pipeline.sh:
+python ${XTEA_PATH}"l_main.py" -C -b ${BAM_LIST} -r ${REF} -p ${TMP} -o ${PREFIX}"candidate_list_from_clip.txt"  -n 23 -w 75 --user -c 1 
+python ${XTEA_PATH}"l_main.py" -A -b ${BAM_LIST} -r ${REF} -p ${TMP} -i ${PREFIX}"candidate_list_from_clip.txt" -o ${PREFIX}"all_ins_seqs.fa" --rep ${REP_LIB} -n 
 
 6. cuteSV
-cuteSV ${BAM} ${REFERENCE} ${OUTPUT} ${RESULT_PAHT} --min_support 1
+cuteSV ${BAM} ${REFERENCE} ${OUTPUT} ${RESULT_PATH} --min_support 1
+
+7. Sniffles2
+Tuning --minsupport:
+sniffles --input ${BAM} --vcf ${OUTPUT} --reference ${REFERENCE} --tandem-repeats ${annotaion.bed} --minsupport 1
+
+Mosaic mode:
+sniffles --input ${BAM} --vcf ${OUTPUT} --reference ${REFERENCE} --tandem-repeats ${annotaion.bed} --mosaic --mosaic-af-min 0 
