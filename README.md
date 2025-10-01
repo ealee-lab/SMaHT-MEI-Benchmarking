@@ -20,7 +20,7 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 
 
 ### Haplotype phasing and DSA
-
+* DSA-specific repeat library preparation in xTea_long: https://github.com/parklab/xTea/tree/master/xtea/rep_lib_prep
 * LRPhasing: https://github.com/wjhlang/LRPhasing
 * PhaseBlockExtension: https://github.com/wjhlang/PhaseBlockExtension 
 * DSA-based analysis: https://github.com/wjhlang/SMaHT-sMEI
