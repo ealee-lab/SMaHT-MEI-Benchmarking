@@ -41,9 +41,10 @@ xtea_long -i ${SAMPLE_LIST} -b ${BAM_LIST} -p ${RESULT_PATH} -o submit_jobs.sh -
 
 In run_xTea_pipeline.sh:
 python ${XTEA_PATH}"l_main.py" -C -b ${BAM_LIST} -r ${REF} -p ${TMP} -o ${PREFIX}"candidate_list_from_clip.txt"  -n 23 -w 75 --user -c 1 
-python ${XTEA_PATH}"l_main.py" -A -b ${BAM_LIST} -r ${REF} -p ${TMP} -i ${PREFIX}"candidate_list_from_clip.txt" -o ${PREFIX}"all_ins_seqs.fa" --rep ${REP_LIB} -n 
+python ${XTEA_PATH}"l_main.py" -A -b ${BAM_LIST} -r ${REF} -p ${TMP} -i ${PREFIX}"candidate_list_from_clip.txt" -o ${PREFIX}"all_ins_seqs.fa" --rep ${REP_LIB} -n 23 -w 75 --user -c 1 
 
 To generate callset using DSA-based aligned samples:
+Generate a DSA-specific repeat library: https://github.com/parklab/xTea/tree/master/xtea/rep_lib_prep
 Set the parameters related to mapping quaility to 0 in global_values.py
 
 6. cuteSV
