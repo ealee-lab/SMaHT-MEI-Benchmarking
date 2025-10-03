@@ -27,8 +27,8 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * PhaseBlockExtension: https://github.com/wjhlang/PhaseBlockExtension 
 * DSA-based analysis: https://github.com/wjhlang/SMaHT-sMEI
 * Running commands for DSA-aligned samples: ./benchmark/running_command.txt
-* Call set for in silico tumor-normal mixture: https://doi.org/10.5281/zenodo.17254345
-* BL2009 haplotyp-resolved DSA: https://doi.org/10.5281/zenodo.17254345
+* Call set for in silico tumor-normal mixture: https://doi.org/10.5281/zenodo.17254344
+* BL2009 haplotyp-resolved DSA: https://doi.org/10.5281/zenodo.17254344
 
 ## Citation 
 * Wang et al., [Multi-platform framework for mapping somatic retrotransposition in human tissues](), bioxriv, 2025,
