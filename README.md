@@ -30,4 +30,4 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * H2009 haplotyp-resolved DSA: https://drive.google.com/drive/folders/1F6MMoxNsoOIYqKbCcpZkd75crGNEFDV2?usp=sharing
 
 ## Citation 
-* Wang et al., [Multi-platform framework for mapping somatic retrotransposition in human tissues](), bioxriv, 2025, ``
+* Wang et al., [Multi-platform framework for mapping somatic retrotransposition in human tissues](), bioxriv, 2025,
