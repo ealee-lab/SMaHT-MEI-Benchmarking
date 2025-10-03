@@ -17,6 +17,7 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * Runninng commands for above WGS-based methods: ./benchmark/running_command.txt
 * TEnCATS: https://dx.doi.org/10.17504/protocols.io.kqdg3q66ev25/v1 (For the molecular protocol), https://github.com/Boyle-Lab/NanoPal-Snakemake (For NanoPal)
 * HAT-seq: https://github.com/ShaynaMallett/HATseq-pipeline/
+* Call set for HapMap mixture: https://drive.google.com/drive/folders/1F6MMoxNsoOIYqKbCcpZkd75crGNEFDV2?usp=sharing
 
 
 ### Haplotype phasing and DSA
@@ -25,6 +26,8 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * PhaseBlockExtension: https://github.com/wjhlang/PhaseBlockExtension 
 * DSA-based analysis: https://github.com/wjhlang/SMaHT-sMEI
 * Running commands for DSA-aligned samples: ./benchmark/running_command.txt
+* Call set for in silico tumor-normal mixture: https://drive.google.com/drive/folders/1F6MMoxNsoOIYqKbCcpZkd75crGNEFDV2?usp=sharing
+* H2009 haplotyp-resolved DSA: https://drive.google.com/drive/folders/1F6MMoxNsoOIYqKbCcpZkd75crGNEFDV2?usp=sharing
 
 ## Citation 
 * Wang et al., [Multi-platform framework for mapping somatic retrotransposition in human tissues](), bioxriv, 2025, ``
