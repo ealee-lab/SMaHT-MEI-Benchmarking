@@ -2,7 +2,7 @@
 # —————————————————————————————————
 # encoding: utf-8
 # tumormix_phasing_and_benchmarking.py
-# Mingyun Bae, Seunghyun Wang, SMaHT MEI Working Group
+# Mingyun Bae, Seunghyun Wang
 # Last Modified: 2026.02
 # —————————————————————————————————
 """
