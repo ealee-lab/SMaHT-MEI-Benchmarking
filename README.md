@@ -15,6 +15,7 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * cuteSV (v2.1.2): https://github.com/tjiangHIT/cuteSV
 * Sniffles2 (v2.6.3): https://github.com/fritzsedlazeck/Sniffles
 * Runninng commands for above WGS-based methods: ./benchmark/running_command.txt
+* Script for benchmarking and multi-platform integration: Python script under ./benchmark
 * TEnCATS: https://dx.doi.org/10.17504/protocols.io.kqdg3q66ev25/v1 (For the molecular protocol), https://github.com/Boyle-Lab/NanoPal-Snakemake (For NanoPal)
 * HAT-seq: https://github.com/ealee-lab/HATseq-pipeline
 * Call set for HapMap mixture: https://doi.org/10.5281/zenodo.17254344
@@ -27,6 +28,7 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * PhaseBlockExtension: https://github.com/wjhlang/PhaseBlockExtension 
 * DSA-based analysis: https://github.com/wjhlang/SMaHT-sMEI
 * Running commands for DSA-aligned samples: ./benchmark/running_command.txt
+* Script for in-house phasing: Python script under ./benchmark
 * Call set for in silico tumor-normal mixture: https://doi.org/10.5281/zenodo.17254344
 * BL2009 haplotyp-resolved DSA: https://doi.org/10.5281/zenodo.17254344
 
