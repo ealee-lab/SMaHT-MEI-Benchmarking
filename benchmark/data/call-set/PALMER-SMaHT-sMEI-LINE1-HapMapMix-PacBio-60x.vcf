@@ -1,0 +1,798 @@
+##fileformat=VCFv4.2
+##fileDate=20240906-024911
+##reference=GCA_000001405.15_GRCh38_no_alt_analysis_set.fa
+##contig=<ID=chr1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=248956422,species=>
+##contig=<ID=chr2,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=242193529,species=>
+##contig=<ID=chr3,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=198295559,species=>
+##contig=<ID=chr4,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=190214555,species=>
+##contig=<ID=chr5,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=181538259,species=>
+##contig=<ID=chr6,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=170805979,species=>
+##contig=<ID=chr7,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=159345973,species=>
+##contig=<ID=chr8,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=145138636,species=>
+##contig=<ID=chr9,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=138394717,species=>
+##contig=<ID=chr10,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=133797422,species=>
+##contig=<ID=chr11,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=135086622,species=>
+##contig=<ID=chr12,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=133275309,species=>
+##contig=<ID=chr13,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=114364328,species=>
+##contig=<ID=chr14,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=107043718,species=>
+##contig=<ID=chr15,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=101991189,species=>
+##contig=<ID=chr16,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=90338345,species=>
+##contig=<ID=chr17,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=83257441,species=>
+##contig=<ID=chr18,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=80373285,species=>
+##contig=<ID=chr19,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=58617616,species=>
+##contig=<ID=chr20,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=64444167,species=>
+##contig=<ID=chr21,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=46709983,species=>
+##contig=<ID=chr22,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=50818468,species=>
+##contig=<ID=chrX,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=156040895,species=>
+##contig=<ID=chrY,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=57227415,species=>
+##contig=<ID=chrM,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=16569,species=>
+##contig=<ID=chr1_KI270706v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=175055,species=>
+##contig=<ID=chr1_KI270707v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=32032,species=>
+##contig=<ID=chr1_KI270708v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=127682,species=>
+##contig=<ID=chr1_KI270709v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=66860,species=>
+##contig=<ID=chr1_KI270710v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=40176,species=>
+##contig=<ID=chr1_KI270711v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=42210,species=>
+##contig=<ID=chr1_KI270712v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=176043,species=>
+##contig=<ID=chr1_KI270713v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=40745,species=>
+##contig=<ID=chr1_KI270714v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=41717,species=>
+##contig=<ID=chr2_KI270715v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=161471,species=>
+##contig=<ID=chr2_KI270716v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=153799,species=>
+##contig=<ID=chr3_GL000221v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=155397,species=>
+##contig=<ID=chr4_GL000008v2_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=209709,species=>
+##contig=<ID=chr5_GL000208v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=92689,species=>
+##contig=<ID=chr9_KI270717v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=40062,species=>
+##contig=<ID=chr9_KI270718v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=38054,species=>
+##contig=<ID=chr9_KI270719v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=176845,species=>
+##contig=<ID=chr9_KI270720v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=39050,species=>
+##contig=<ID=chr11_KI270721v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=100316,species=>
+##contig=<ID=chr14_GL000009v2_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=201709,species=>
+##contig=<ID=chr14_GL000225v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=211173,species=>
+##contig=<ID=chr14_KI270722v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=194050,species=>
+##contig=<ID=chr14_GL000194v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=191469,species=>
+##contig=<ID=chr14_KI270723v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=38115,species=>
+##contig=<ID=chr14_KI270724v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=39555,species=>
+##contig=<ID=chr14_KI270725v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=172810,species=>
+##contig=<ID=chr14_KI270726v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=43739,species=>
+##contig=<ID=chr15_KI270727v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=448248,species=>
+##contig=<ID=chr16_KI270728v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1872759,species=>
+##contig=<ID=chr17_GL000205v2_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=185591,species=>
+##contig=<ID=chr17_KI270729v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=280839,species=>
+##contig=<ID=chr17_KI270730v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=112551,species=>
+##contig=<ID=chr22_KI270731v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=150754,species=>
+##contig=<ID=chr22_KI270732v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=41543,species=>
+##contig=<ID=chr22_KI270733v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=179772,species=>
+##contig=<ID=chr22_KI270734v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=165050,species=>
+##contig=<ID=chr22_KI270735v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=42811,species=>
+##contig=<ID=chr22_KI270736v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=181920,species=>
+##contig=<ID=chr22_KI270737v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=103838,species=>
+##contig=<ID=chr22_KI270738v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=99375,species=>
+##contig=<ID=chr22_KI270739v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=73985,species=>
+##contig=<ID=chrY_KI270740v1_random,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=37240,species=>
+##contig=<ID=chrUn_KI270302v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2274,species=>
+##contig=<ID=chrUn_KI270304v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2165,species=>
+##contig=<ID=chrUn_KI270303v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1942,species=>
+##contig=<ID=chrUn_KI270305v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1472,species=>
+##contig=<ID=chrUn_KI270322v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=21476,species=>
+##contig=<ID=chrUn_KI270320v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=4416,species=>
+##contig=<ID=chrUn_KI270310v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1201,species=>
+##contig=<ID=chrUn_KI270316v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1444,species=>
+##contig=<ID=chrUn_KI270315v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2276,species=>
+##contig=<ID=chrUn_KI270312v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=998,species=>
+##contig=<ID=chrUn_KI270311v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=12399,species=>
+##contig=<ID=chrUn_KI270317v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=37690,species=>
+##contig=<ID=chrUn_KI270412v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1179,species=>
+##contig=<ID=chrUn_KI270411v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2646,species=>
+##contig=<ID=chrUn_KI270414v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2489,species=>
+##contig=<ID=chrUn_KI270419v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1029,species=>
+##contig=<ID=chrUn_KI270418v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2145,species=>
+##contig=<ID=chrUn_KI270420v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2321,species=>
+##contig=<ID=chrUn_KI270424v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2140,species=>
+##contig=<ID=chrUn_KI270417v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2043,species=>
+##contig=<ID=chrUn_KI270422v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1445,species=>
+##contig=<ID=chrUn_KI270423v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=981,species=>
+##contig=<ID=chrUn_KI270425v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1884,species=>
+##contig=<ID=chrUn_KI270429v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1361,species=>
+##contig=<ID=chrUn_KI270442v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=392061,species=>
+##contig=<ID=chrUn_KI270466v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1233,species=>
+##contig=<ID=chrUn_KI270465v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1774,species=>
+##contig=<ID=chrUn_KI270467v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=3920,species=>
+##contig=<ID=chrUn_KI270435v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=92983,species=>
+##contig=<ID=chrUn_KI270438v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=112505,species=>
+##contig=<ID=chrUn_KI270468v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=4055,species=>
+##contig=<ID=chrUn_KI270510v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2415,species=>
+##contig=<ID=chrUn_KI270509v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2318,species=>
+##contig=<ID=chrUn_KI270518v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2186,species=>
+##contig=<ID=chrUn_KI270508v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1951,species=>
+##contig=<ID=chrUn_KI270516v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1300,species=>
+##contig=<ID=chrUn_KI270512v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=22689,species=>
+##contig=<ID=chrUn_KI270519v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=138126,species=>
+##contig=<ID=chrUn_KI270522v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=5674,species=>
+##contig=<ID=chrUn_KI270511v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=8127,species=>
+##contig=<ID=chrUn_KI270515v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=6361,species=>
+##contig=<ID=chrUn_KI270507v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=5353,species=>
+##contig=<ID=chrUn_KI270517v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=3253,species=>
+##contig=<ID=chrUn_KI270529v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1899,species=>
+##contig=<ID=chrUn_KI270528v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2983,species=>
+##contig=<ID=chrUn_KI270530v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2168,species=>
+##contig=<ID=chrUn_KI270539v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=993,species=>
+##contig=<ID=chrUn_KI270538v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=91309,species=>
+##contig=<ID=chrUn_KI270544v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1202,species=>
+##contig=<ID=chrUn_KI270548v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1599,species=>
+##contig=<ID=chrUn_KI270583v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1400,species=>
+##contig=<ID=chrUn_KI270587v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2969,species=>
+##contig=<ID=chrUn_KI270580v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1553,species=>
+##contig=<ID=chrUn_KI270581v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=7046,species=>
+##contig=<ID=chrUn_KI270579v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=31033,species=>
+##contig=<ID=chrUn_KI270589v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=44474,species=>
+##contig=<ID=chrUn_KI270590v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=4685,species=>
+##contig=<ID=chrUn_KI270584v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=4513,species=>
+##contig=<ID=chrUn_KI270582v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=6504,species=>
+##contig=<ID=chrUn_KI270588v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=6158,species=>
+##contig=<ID=chrUn_KI270593v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=3041,species=>
+##contig=<ID=chrUn_KI270591v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=5796,species=>
+##contig=<ID=chrUn_KI270330v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1652,species=>
+##contig=<ID=chrUn_KI270329v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1040,species=>
+##contig=<ID=chrUn_KI270334v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1368,species=>
+##contig=<ID=chrUn_KI270333v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2699,species=>
+##contig=<ID=chrUn_KI270335v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1048,species=>
+##contig=<ID=chrUn_KI270338v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1428,species=>
+##contig=<ID=chrUn_KI270340v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1428,species=>
+##contig=<ID=chrUn_KI270336v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1026,species=>
+##contig=<ID=chrUn_KI270337v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1121,species=>
+##contig=<ID=chrUn_KI270363v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1803,species=>
+##contig=<ID=chrUn_KI270364v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2855,species=>
+##contig=<ID=chrUn_KI270362v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=3530,species=>
+##contig=<ID=chrUn_KI270366v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=8320,species=>
+##contig=<ID=chrUn_KI270378v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1048,species=>
+##contig=<ID=chrUn_KI270379v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1045,species=>
+##contig=<ID=chrUn_KI270389v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1298,species=>
+##contig=<ID=chrUn_KI270390v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2387,species=>
+##contig=<ID=chrUn_KI270387v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1537,species=>
+##contig=<ID=chrUn_KI270395v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1143,species=>
+##contig=<ID=chrUn_KI270396v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1880,species=>
+##contig=<ID=chrUn_KI270388v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1216,species=>
+##contig=<ID=chrUn_KI270394v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=970,species=>
+##contig=<ID=chrUn_KI270386v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1788,species=>
+##contig=<ID=chrUn_KI270391v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1484,species=>
+##contig=<ID=chrUn_KI270383v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1750,species=>
+##contig=<ID=chrUn_KI270393v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1308,species=>
+##contig=<ID=chrUn_KI270384v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1658,species=>
+##contig=<ID=chrUn_KI270392v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=971,species=>
+##contig=<ID=chrUn_KI270381v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1930,species=>
+##contig=<ID=chrUn_KI270385v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=990,species=>
+##contig=<ID=chrUn_KI270382v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=4215,species=>
+##contig=<ID=chrUn_KI270376v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1136,species=>
+##contig=<ID=chrUn_KI270374v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2656,species=>
+##contig=<ID=chrUn_KI270372v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1650,species=>
+##contig=<ID=chrUn_KI270373v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=1451,species=>
+##contig=<ID=chrUn_KI270375v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2378,species=>
+##contig=<ID=chrUn_KI270371v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=2805,species=>
+##contig=<ID=chrUn_KI270448v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=7992,species=>
+##contig=<ID=chrUn_KI270521v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=7642,species=>
+##contig=<ID=chrUn_GL000195v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=182896,species=>
+##contig=<ID=chrUn_GL000219v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=179198,species=>
+##contig=<ID=chrUn_GL000220v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=161802,species=>
+##contig=<ID=chrUn_GL000224v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=179693,species=>
+##contig=<ID=chrUn_KI270741v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=157432,species=>
+##contig=<ID=chrUn_GL000226v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=15008,species=>
+##contig=<ID=chrUn_GL000213v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=164239,species=>
+##contig=<ID=chrUn_KI270743v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=210658,species=>
+##contig=<ID=chrUn_KI270744v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=168472,species=>
+##contig=<ID=chrUn_KI270745v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=41891,species=>
+##contig=<ID=chrUn_KI270746v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=66486,species=>
+##contig=<ID=chrUn_KI270747v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=198735,species=>
+##contig=<ID=chrUn_KI270748v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=93321,species=>
+##contig=<ID=chrUn_KI270749v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=158759,species=>
+##contig=<ID=chrUn_KI270750v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=148850,species=>
+##contig=<ID=chrUn_KI270751v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=150742,species=>
+##contig=<ID=chrUn_KI270752v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=27745,species=>
+##contig=<ID=chrUn_KI270753v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=62944,species=>
+##contig=<ID=chrUn_KI270754v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=40191,species=>
+##contig=<ID=chrUn_KI270755v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=36723,species=>
+##contig=<ID=chrUn_KI270756v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=79590,species=>
+##contig=<ID=chrUn_KI270757v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=71251,species=>
+##contig=<ID=chrUn_GL000214v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=137718,species=>
+##contig=<ID=chrUn_KI270742v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=186739,species=>
+##contig=<ID=chrUn_GL000216v2,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=176608,species=>
+##contig=<ID=chrUn_GL000218v1,assembly=file://GCA_000001405.15_GRCh38_no_alt_analysis_set.fa,length=161147,species=>
+##ALT=<ID=INS,Description="Insertion of novel sequence relative to the reference">
+##FILTER=<ID=PASS,Number=.,Type=String,Description="Passed call">
+##FILTER=<ID=LowQ,Number=.,Type=String,Description="Low quality call">
+##INFO=<ID=STRAND,Number=.,Type=String,Description="Insertion DNA strand (+ or -)">
+##INFO=<ID=MEICoord,Number=.,Type=String,Description="Coordinates (start,end) for inserted piece of sequence of the variant">
+##INFO=<ID=POLYA_LEN,Number=.,Type=String,Description="Length of the polyA tail of the variant">
+##INFO=<ID=TSD_LEN,Number=.,Type=String,Description="Length of the TSD of the variant (5'TSD, 3'TSD)">
+##INFO=<ID=3TD_LEN,Number=.,Type=String,Description="Length of the 3' transduction sequence of the variant">
+##INFO=<ID=5INV,Number=.,Type=String,Description="The structure of 5' inverted (L1) sequence in the variant">
+##INFO=<ID=LOCAL_COV,Number=.,Type=String,Description="Local read depth in \u00b15kb bin">
+##FORMAT=<ID=SR,Number=1,Type=String,Description="Number of supporting reads">
+##FORMAT=<ID=HC_SR,Number=1,Type=String,Description="Number of high confidence supporting reads with TSD on both sides">
+##FORMAT=<ID=AF,Number=1,Type=String,Description="Allele frequency">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+chr1	878424	MEI_bcm.pb.60x_2344	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3850,6040;POLYA_LEN=18;TSD_LEN=6,6;3TD_LEN=8;5INV=1,4299,5415;LOCAL_COV=45.084	SR:HC_SR:AF	37:37:0.82069
+chr1	42018300	MEI_bcm.pb.60x_1374	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4569,6047;POLYA_LEN=19;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.3296	SR:HC_SR:AF	1:1:0.0163053
+chr1	42917670	MEI_bcm.pb.60x_1398	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3473,6067;POLYA_LEN=31;TSD_LEN=8,8;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.798	SR:HC_SR:AF	5:5:0.0896089
+chr1	55939720	MEI_bcm.pb.60x_1675	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2892,6045;POLYA_LEN=19;TSD_LEN=12,12;3TD_LEN=0;5INV=1,4532,4526;LOCAL_COV=42.4821	SR:HC_SR:AF	27:26:0.635562
+chr1	58963462	MEI_bcm.pb.60x_1754	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5215,6046;POLYA_LEN=24;TSD_LEN=6,6;3TD_LEN=1988;5INV=0,0,0;LOCAL_COV=60.6624	SR:HC_SR:AF	3:3:0.049454
+chr1	58964280	MEI_bcm.pb.60x_1755	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2918,6040;POLYA_LEN=11;TSD_LEN=7,7;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.4328	SR:HC_SR:AF	2:2:0.0330946
+chr1	70782918	MEI_bcm.pb.60x_1982	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6071;POLYA_LEN=40;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.7843	SR:HC_SR:AF	25:11:0.425284
+chr1	74727215	MEI_bcm.pb.60x_2066	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2345,6046;POLYA_LEN=24;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.056	SR:HC_SR:AF	6:5:0.10516
+chr1	88010658	MEI_bcm.pb.60x_2345	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4597,6107;POLYA_LEN=81;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=78.099	SR:HC_SR:AF	3:1:0.0384128
+chr1	88010658	MEI_bcm.pb.60x_2346	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4597,6107;POLYA_LEN=81;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=78.099	SR:HC_SR:AF	4:2:0.051217
+chr1	101513430	MEI_bcm.pb.60x_247	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2670,6044;POLYA_LEN=22;TSD_LEN=11,11;3TD_LEN=173;5INV=1,3751,4322;LOCAL_COV=51.0392	SR:HC_SR:AF	17:16:0.333077
+chr1	102103360	MEI_bcm.pb.60x_250	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=10,6051;POLYA_LEN=29;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.3171	SR:HC_SR:AF	29:18:0.488898
+chr1	104485594	MEI_bcm.pb.60x_256	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5941,6061;POLYA_LEN=39;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.6763	SR:HC_SR:AF	1:1:0.015955
+chr1	105315155	MEI_bcm.pb.60x_262	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4,6066;POLYA_LEN=34;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.5235	SR:HC_SR:AF	5:5:0.0826125
+chr1	105853791	MEI_bcm.pb.60x_265	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5211,6119;POLYA_LEN=91;TSD_LEN=16,16;3TD_LEN=0;5INV=1,5668,5679;LOCAL_COV=63.3991	SR:HC_SR:AF	2:2:0.0315462
+chr1	111259969	MEI_bcm.pb.60x_303	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5759,6037;POLYA_LEN=15;TSD_LEN=18,18;3TD_LEN=970;5INV=0,0,0;LOCAL_COV=65.9323	SR:HC_SR:AF	4:1:0.0606683
+chr1	111465206	MEI_bcm.pb.60x_307	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5369,6066;POLYA_LEN=42;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.2947	SR:HC_SR:AF	1:1:0.01486
+chr1	119010736	MEI_bcm.pb.60x_365	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5023,6078;POLYA_LEN=50;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=50.774	SR:HC_SR:AF	49:41:0.965061
+chr1	119010736	MEI_bcm.pb.60x_366	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5023,6078;POLYA_LEN=50;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=50.774	SR:HC_SR:AF	12:12:0.236341
+chr1	146847910	MEI_bcm.pb.60x_440	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5631,6083;POLYA_LEN=61;TSD_LEN=6,6;3TD_LEN=16;5INV=0,0,0;LOCAL_COV=63.6726	SR:HC_SR:AF	5:5:0.0785267
+chr1	152471409	MEI_bcm.pb.60x_482	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6073;POLYA_LEN=44;TSD_LEN=19,19;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=63.1349	SR:HC_SR:AF	1:1:0.0158391
+chr1	152485938	MEI_bcm.pb.60x_483	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5500,6056;POLYA_LEN=34;TSD_LEN=6,6;3TD_LEN=204;5INV=0,0,0;LOCAL_COV=54.2605	SR:HC_SR:AF	6:6:0.110578
+chr1	156835449	MEI_bcm.pb.60x_496	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4532,6081;POLYA_LEN=54;TSD_LEN=8,8;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=47.3784	SR:HC_SR:AF	2:2:0.0422133
+chr1	165562683	MEI_bcm.pb.60x_537	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3866,6051;POLYA_LEN=24;TSD_LEN=18,19;3TD_LEN=0;5INV=1,3902,4411;LOCAL_COV=62.0948	SR:HC_SR:AF	23:23:0.370401
+chr1	165562683	MEI_bcm.pb.60x_538	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4411,6051;POLYA_LEN=33;TSD_LEN=7,7;3TD_LEN=5;5INV=0,0,0;LOCAL_COV=62.0948	SR:HC_SR:AF	26:20:0.418715
+chr1	169555628	MEI_bcm.pb.60x_561	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5413,6047;POLYA_LEN=34;TSD_LEN=6,6;3TD_LEN=112;5INV=0,0,0;LOCAL_COV=67.8619	SR:HC_SR:AF	61:51:0.898884
+chr1	179297137	MEI_bcm.pb.60x_601	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6071;POLYA_LEN=49;TSD_LEN=10,10;3TD_LEN=2585;5INV=0,0,0;LOCAL_COV=52.2005	SR:HC_SR:AF	1:1:0.0191569
+chr1	179606235	MEI_bcm.pb.60x_605	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=25,6070;POLYA_LEN=52;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=73.717	SR:HC_SR:AF	27:15:0.366266
+chr1	188551992	MEI_bcm.pb.60x_629	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4271,6055;POLYA_LEN=21;TSD_LEN=19,19;3TD_LEN=0;5INV=1,5003,5016;LOCAL_COV=71.9646	SR:HC_SR:AF	4:4:0.0555829
+chr1	191003889	MEI_bcm.pb.60x_643	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4996,6056;POLYA_LEN=33;TSD_LEN=16,16;3TD_LEN=1;5INV=1,5158,5164;LOCAL_COV=59.3225	SR:HC_SR:AF	1:1:0.016857
+chr1	192293131	MEI_bcm.pb.60x_652	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5485,6077;POLYA_LEN=44;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=66.851	SR:HC_SR:AF	5:5:0.0747932
+chr1	198473368	MEI_bcm.pb.60x_673	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1933,6044;POLYA_LEN=21;TSD_LEN=14,14;3TD_LEN=0;5INV=1,2908,2907;LOCAL_COV=65.7123	SR:HC_SR:AF	8:8:0.121743
+chr1	217698094	MEI_bcm.pb.60x_805	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4610,6056;POLYA_LEN=34;TSD_LEN=6,6;3TD_LEN=2288;5INV=1,4740,4738;LOCAL_COV=44.4489	SR:HC_SR:AF	1:1:0.0224977
+chr1	222405789	MEI_bcm.pb.60x_835	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6046;POLYA_LEN=23;TSD_LEN=19,19;3TD_LEN=1;5INV=0,0,0;LOCAL_COV=50.3465	SR:HC_SR:AF	1:1:0.0198624
+chr1	224982161	MEI_bcm.pb.60x_846	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4210,6077;POLYA_LEN=52;TSD_LEN=14,14;3TD_LEN=0;5INV=1,5307,5332;LOCAL_COV=58.1084	SR:HC_SR:AF	2:2:0.0344184
+chr1	239352490	MEI_bcm.pb.60x_910	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5271,6087;POLYA_LEN=60;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.3575	SR:HC_SR:AF	7:6:0.122042
+chr1	248897263	MEI_bcm.pb.60x_969	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5120,6094;POLYA_LEN=67;TSD_LEN=11,11;3TD_LEN=0;5INV=1,5654,5622;LOCAL_COV=60.3268	SR:HC_SR:AF	21:21:0.348104
+chr10	8985437	MEI_bcm.pb.60x_221	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4380,6036;POLYA_LEN=10;TSD_LEN=9,9;3TD_LEN=0;5INV=1,4980,5012;LOCAL_COV=63.5634	SR:HC_SR:AF	1:1:0.0157323
+chr10	15989589	MEI_bcm.pb.60x_65	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5651,6066;POLYA_LEN=44;TSD_LEN=6,6;3TD_LEN=9;5INV=0,0,0;LOCAL_COV=58.7232	SR:HC_SR:AF	1:1:0.017029
+chr10	17268903	MEI_bcm.pb.60x_68	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3,6085;POLYA_LEN=63;TSD_LEN=16,16;3TD_LEN=632;5INV=0,0,0;LOCAL_COV=42.1351	SR:HC_SR:AF	4:3:0.0949327
+chr10	18927730	MEI_bcm.pb.60x_78	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5183,6047;POLYA_LEN=18;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5565,5566;LOCAL_COV=56.7316	SR:HC_SR:AF	6:6:0.105761
+chr10	20790667	MEI_bcm.pb.60x_84	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1825,6031;POLYA_LEN=9;TSD_LEN=8,8;3TD_LEN=609;5INV=0,0,0;LOCAL_COV=57.8488	SR:HC_SR:AF	1:1:0.0172864
+chr10	25418765	MEI_bcm.pb.60x_97	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6042;POLYA_LEN=11;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.7193	SR:HC_SR:AF	4:3:0.0590674
+chr10	27355675	MEI_bcm.pb.60x_106	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5681,6022;POLYA_LEN=0;TSD_LEN=11,11;3TD_LEN=17;5INV=0,0,0;LOCAL_COV=55.323	SR:HC_SR:AF	22:22:0.397665
+chr10	57749107	MEI_bcm.pb.60x_164	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4693,6065;POLYA_LEN=41;TSD_LEN=6,6;3TD_LEN=6;5INV=0,0,0;LOCAL_COV=67.7822	SR:HC_SR:AF	24:20:0.354075
+chr10	67465131	MEI_bcm.pb.60x_183	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4182,6076;POLYA_LEN=62;TSD_LEN=8,8;3TD_LEN=0;5INV=1,4935,4947;LOCAL_COV=58.2226	SR:HC_SR:AF	19:18:0.326334
+chr10	81445043	MEI_bcm.pb.60x_204	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5454,6082;POLYA_LEN=52;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.1248	SR:HC_SR:AF	4:3:0.0725626
+chr10	83902863	MEI_bcm.pb.60x_209	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5693,6056;POLYA_LEN=34;TSD_LEN=6,6;3TD_LEN=307;5INV=0,0,0;LOCAL_COV=56.8571	SR:HC_SR:AF	2:1:0.0351759
+chr10	83903196	MEI_bcm.pb.60x_210	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5693,6024;POLYA_LEN=2;TSD_LEN=7,7;3TD_LEN=17;5INV=0,0,0;LOCAL_COV=56.6686	SR:HC_SR:AF	1:1:0.0176465
+chr10	83903356	MEI_bcm.pb.60x_211	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5693,6056;POLYA_LEN=34;TSD_LEN=6,6;3TD_LEN=80;5INV=0,0,0;LOCAL_COV=56.5928	SR:HC_SR:AF	12:12:0.212041
+chr10	83903533	MEI_bcm.pb.60x_212	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5693,6056;POLYA_LEN=34;TSD_LEN=6,6;3TD_LEN=81;5INV=0,0,0;LOCAL_COV=56.5102	SR:HC_SR:AF	4:3:0.0707837
+chr10	89957883	MEI_bcm.pb.60x_222	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6047;POLYA_LEN=18;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.2771	SR:HC_SR:AF	11:8:0.179512
+chr10	97486221	MEI_bcm.pb.60x_239	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5932,6035;POLYA_LEN=1;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=46.7805	SR:HC_SR:AF	1:1:0.0213764
+chr10	98721213	MEI_bcm.pb.60x_242	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4,6073;POLYA_LEN=47;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=69.648	SR:HC_SR:AF	1:1:0.0143579
+chr10	103126159	MEI_bcm.pb.60x_7	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3067,6057;POLYA_LEN=35;TSD_LEN=6,6;3TD_LEN=2111;5INV=0,0,0;LOCAL_COV=59.1235	SR:HC_SR:AF	1:1:0.0169137
+chr10	106854504	MEI_bcm.pb.60x_14	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4982,6092;POLYA_LEN=58;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=48.9686	SR:HC_SR:AF	1:1:0.0204212
+chr10	108693711	MEI_bcm.pb.60x_16	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5214,6047;POLYA_LEN=17;TSD_LEN=8,8;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=69.4588	SR:HC_SR:AF	31:31:0.446308
+chr10	115560716	MEI_bcm.pb.60x_21	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4081,6051;POLYA_LEN=30;TSD_LEN=8,8;3TD_LEN=104;5INV=0,0,0;LOCAL_COV=58.3595	SR:HC_SR:AF	29:19:0.49692
+chr10	125295062	MEI_bcm.pb.60x_46	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6091;POLYA_LEN=65;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.5941	SR:HC_SR:AF	1:1:0.0179875
+chr10	128826791	MEI_bcm.pb.60x_52	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4,6083;POLYA_LEN=58;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.8394	SR:HC_SR:AF	34:18:0.598177
+chr11	6992835	MEI_bcm.pb.60x_563	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4908,6054;POLYA_LEN=26;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5174,5789;LOCAL_COV=63.4703	SR:HC_SR:AF	1:1:0.0157554
+chr11	6992835	MEI_bcm.pb.60x_564	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4908,6054;POLYA_LEN=26;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5174,5789;LOCAL_COV=63.4703	SR:HC_SR:AF	3:3:0.0472662
+chr11	15358707	MEI_bcm.pb.60x_354	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4668,6056;POLYA_LEN=34;TSD_LEN=16,16;3TD_LEN=179;5INV=1,5538,5549;LOCAL_COV=47.5019	SR:HC_SR:AF	14:14:0.294725
+chr11	29799640	MEI_bcm.pb.60x_390	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5888,6052;POLYA_LEN=29;TSD_LEN=6,6;3TD_LEN=245;5INV=0,0,0;LOCAL_COV=88.0891	SR:HC_SR:AF	6:6:0.0681129
+chr11	30158912	MEI_bcm.pb.60x_391	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6055;POLYA_LEN=25;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=79.4797	SR:HC_SR:AF	2:2:0.0251637
+chr11	33648585	MEI_bcm.pb.60x_398	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4430,6091;POLYA_LEN=63;TSD_LEN=16,16;3TD_LEN=0;5INV=1,4838,4853;LOCAL_COV=39.1596	SR:HC_SR:AF	26:26:0.66395
+chr11	34089297	MEI_bcm.pb.60x_400	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6059;POLYA_LEN=37;TSD_LEN=17,17;3TD_LEN=127;5INV=0,0,0;LOCAL_COV=53.6063	SR:HC_SR:AF	1:1:0.0186545
+chr11	36536931	MEI_bcm.pb.60x_407	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6072;POLYA_LEN=46;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.5451	SR:HC_SR:AF	9:1:0.13731
+chr11	39203599	MEI_bcm.pb.60x_414	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4819,6070;POLYA_LEN=41;TSD_LEN=12,12;3TD_LEN=0;5INV=1,4995,4977;LOCAL_COV=62.0306	SR:HC_SR:AF	4:4:0.0644843
+chr11	41810254	MEI_bcm.pb.60x_421	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4581,6042;POLYA_LEN=17;TSD_LEN=13,13;3TD_LEN=0;5INV=1,5545,5545;LOCAL_COV=53.1097	SR:HC_SR:AF	44:44:0.828474
+chr11	41848318	MEI_bcm.pb.60x_422	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2873,6063;POLYA_LEN=41;TSD_LEN=26,26;3TD_LEN=16;5INV=1,3094,4551;LOCAL_COV=61.1396	SR:HC_SR:AF	9:9:0.147204
+chr11	48734297	MEI_bcm.pb.60x_461	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5693,6047;POLYA_LEN=22;TSD_LEN=6,6;3TD_LEN=65;5INV=0,0,0;LOCAL_COV=61.0536	SR:HC_SR:AF	24:21:0.393097
+chr11	48916826	MEI_bcm.pb.60x_466	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4790,6062;POLYA_LEN=39;TSD_LEN=36,35;3TD_LEN=321;5INV=0,0,0;LOCAL_COV=68.9072	SR:HC_SR:AF	22:19:0.31927
+chr11	48919207	MEI_bcm.pb.60x_467	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4790,6071;POLYA_LEN=44;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=75.1298	SR:HC_SR:AF	15:15:0.199654
+chr11	48941574	MEI_bcm.pb.60x_468	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2570,6052;POLYA_LEN=30;TSD_LEN=6,6;3TD_LEN=9;5INV=1,3177,3171;LOCAL_COV=67.9865	SR:HC_SR:AF	1:1:0.0147088
+chr11	58050634	MEI_bcm.pb.60x_500	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5057,6084;POLYA_LEN=35;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=52.0494	SR:HC_SR:AF	3:2:0.0576376
+chr11	67831582	MEI_bcm.pb.60x_553	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6051;POLYA_LEN=30;TSD_LEN=8,8;3TD_LEN=5;5INV=0,0,0;LOCAL_COV=27.2793	SR:HC_SR:AF	17:10:0.623183
+chr11	94951203	MEI_bcm.pb.60x_661	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1929,6041;POLYA_LEN=19;TSD_LEN=7,7;3TD_LEN=13;5INV=0,0,0;LOCAL_COV=75.018	SR:HC_SR:AF	1:1:0.0133301
+chr11	98325571	MEI_bcm.pb.60x_672	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5954,6050;POLYA_LEN=22;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.6344	SR:HC_SR:AF	50:50:0.852742
+chr11	104169445	MEI_bcm.pb.60x_286	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4350,6061;POLYA_LEN=23;TSD_LEN=18,18;3TD_LEN=607;5INV=0,0,0;LOCAL_COV=53.8057	SR:HC_SR:AF	4:2:0.0743416
+chr11	104685402	MEI_bcm.pb.60x_288	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4609,6067;POLYA_LEN=45;TSD_LEN=6,6;3TD_LEN=8;5INV=0,0,0;LOCAL_COV=56.4431	SR:HC_SR:AF	56:41:0.99215
+chr11	110507160	MEI_bcm.pb.60x_302	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6047;POLYA_LEN=20;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.9194	SR:HC_SR:AF	29:18:0.528047
+chr11	129635306	MEI_bcm.pb.60x_340	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4511,6047;POLYA_LEN=25;TSD_LEN=15,15;3TD_LEN=196;5INV=1,4976,4984;LOCAL_COV=60.6093	SR:HC_SR:AF	1:1:0.0164991
+chr11	134435751	MEI_bcm.pb.60x_350	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5724,6047;POLYA_LEN=24;TSD_LEN=6,6;3TD_LEN=1;5INV=0,0,0;LOCAL_COV=51.8158	SR:HC_SR:AF	34:34:0.656171
+chr12	5668392	MEI_bcm.pb.60x_988	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5885,6058;POLYA_LEN=25;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=53.194	SR:HC_SR:AF	1:1:0.0187991
+chr12	7953000	MEI_bcm.pb.60x_1060	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5877,6030;POLYA_LEN=7;TSD_LEN=35,35;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=35.9572	SR:HC_SR:AF	2:2:0.0556217
+chr12	11038780	MEI_bcm.pb.60x_712	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3725,6061;POLYA_LEN=24;TSD_LEN=11,11;3TD_LEN=131;5INV=0,0,0;LOCAL_COV=72.2506	SR:HC_SR:AF	22:12:0.304496
+chr12	11066596	MEI_bcm.pb.60x_713	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5896,6074;POLYA_LEN=53;TSD_LEN=7,7;3TD_LEN=5;5INV=0,0,0;LOCAL_COV=80.4713	SR:HC_SR:AF	61:61:0.758034
+chr12	11398218	MEI_bcm.pb.60x_719	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5240,6032;POLYA_LEN=10;TSD_LEN=7,7;3TD_LEN=34;5INV=0,0,0;LOCAL_COV=72.5041	SR:HC_SR:AF	8:6:0.110339
+chr12	12780753	MEI_bcm.pb.60x_770	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4270,6042;POLYA_LEN=15;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=51.6613	SR:HC_SR:AF	45:36:0.871058
+chr12	13392625	MEI_bcm.pb.60x_786	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4,6069;POLYA_LEN=48;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=34.8642	SR:HC_SR:AF	8:8:0.229462
+chr12	24002571	MEI_bcm.pb.60x_840	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5997,6064;POLYA_LEN=42;TSD_LEN=6,6;3TD_LEN=16;5INV=0,0,0;LOCAL_COV=54.8576	SR:HC_SR:AF	1:1:0.018229
+chr12	28073487	MEI_bcm.pb.60x_860	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6054;POLYA_LEN=28;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=73.722	SR:HC_SR:AF	38:25:0.51545
+chr12	33864390	MEI_bcm.pb.60x_895	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6041;POLYA_LEN=19;TSD_LEN=14,14;3TD_LEN=297;5INV=0,0,0;LOCAL_COV=61.3771	SR:HC_SR:AF	1:1:0.0162927
+chr12	38430542	MEI_bcm.pb.60x_907	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3197,6090;POLYA_LEN=62;TSD_LEN=17,16;3TD_LEN=0;5INV=1,3263,3276;LOCAL_COV=67.0175	SR:HC_SR:AF	2:2:0.029843
+chr12	42863176	MEI_bcm.pb.60x_924	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4888,6045;POLYA_LEN=16;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.7496	SR:HC_SR:AF	46:34:0.757207
+chr12	46975843	MEI_bcm.pb.60x_961	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5021,6061;POLYA_LEN=39;TSD_LEN=6,6;3TD_LEN=12;5INV=0,0,0;LOCAL_COV=48.7866	SR:HC_SR:AF	1:1:0.0204974
+chr12	46975845	MEI_bcm.pb.60x_962	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5021,6062;POLYA_LEN=39;TSD_LEN=6,6;3TD_LEN=11;5INV=0,0,0;LOCAL_COV=48.7822	SR:HC_SR:AF	22:21:0.450984
+chr12	48535275	MEI_bcm.pb.60x_967	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5406,6105;POLYA_LEN=84;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.5695	SR:HC_SR:AF	9:8:0.156333
+chr12	63175383	MEI_bcm.pb.60x_1007	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5901,6042;POLYA_LEN=20;TSD_LEN=17,17;3TD_LEN=218;5INV=0,0,0;LOCAL_COV=69.6788	SR:HC_SR:AF	8:8:0.114813
+chr12	74629432	MEI_bcm.pb.60x_1045	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6071;POLYA_LEN=50;TSD_LEN=19,19;3TD_LEN=471;5INV=0,0,0;LOCAL_COV=75.9834	SR:HC_SR:AF	7:5:0.0921254
+chr12	78944243	MEI_bcm.pb.60x_1058	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2288,6047;POLYA_LEN=19;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.9302	SR:HC_SR:AF	1:1:0.0164122
+chr12	84561430	MEI_bcm.pb.60x_1077	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4273,6079;POLYA_LEN=53;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.7837	SR:HC_SR:AF	11:8:0.169796
+chr12	84571354	MEI_bcm.pb.60x_1078	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5132,6071;POLYA_LEN=50;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.026	SR:HC_SR:AF	18:17:0.290201
+chr12	85112505	MEI_bcm.pb.60x_1080	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5303,6073;POLYA_LEN=49;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=74.7421	SR:HC_SR:AF	9:9:0.120414
+chr12	94489901	MEI_bcm.pb.60x_1098	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4132,6070;POLYA_LEN=42;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5173,5253;LOCAL_COV=47.6407	SR:HC_SR:AF	2:2:0.0419809
+chr12	101778927	MEI_bcm.pb.60x_691	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4579,6074;POLYA_LEN=48;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.2395	SR:HC_SR:AF	19:17:0.295768
+chr12	117376649	MEI_bcm.pb.60x_727	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6110;POLYA_LEN=81;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=46.6345	SR:HC_SR:AF	37:22:0.793404
+chr12	117749127	MEI_bcm.pb.60x_729	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2286,6042;POLYA_LEN=3;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=66.4247	SR:HC_SR:AF	14:8:0.210765
+chr12	126318390	MEI_bcm.pb.60x_765	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6040;POLYA_LEN=19;TSD_LEN=8,8;3TD_LEN=16;5INV=0,0,0;LOCAL_COV=80.2805	SR:HC_SR:AF	14:11:0.174389
+chr12	128866236	MEI_bcm.pb.60x_772	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5744,6029;POLYA_LEN=7;TSD_LEN=15,15;3TD_LEN=505;5INV=0,0,0;LOCAL_COV=44.3683	SR:HC_SR:AF	3:3:0.0676158
+chr13	20940822	MEI_bcm.pb.60x_1153	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5787,6049;POLYA_LEN=20;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=32.6045	SR:HC_SR:AF	4:4:0.122682
+chr13	21915652	MEI_bcm.pb.60x_1159	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5837,6041;POLYA_LEN=19;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.1031	SR:HC_SR:AF	15:14:0.253794
+chr13	26913979	MEI_bcm.pb.60x_1177	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5155,6049;POLYA_LEN=23;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.723	SR:HC_SR:AF	58:54:0.955157
+chr13	37822791	MEI_bcm.pb.60x_1202	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5096,6040;POLYA_LEN=18;TSD_LEN=45,45;3TD_LEN=1752;5INV=1,5514,5510;LOCAL_COV=58.5343	SR:HC_SR:AF	1:1:0.017084
+chr13	42197260	MEI_bcm.pb.60x_1214	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5667,6085;POLYA_LEN=55;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=82.2108	SR:HC_SR:AF	2:2:0.0243277
+chr13	43027066	MEI_bcm.pb.60x_1219	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5939,6036;POLYA_LEN=14;TSD_LEN=6,6;3TD_LEN=294;5INV=0,0,0;LOCAL_COV=82.0545	SR:HC_SR:AF	2:2:0.024374
+chr13	47740885	MEI_bcm.pb.60x_1227	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5308,6022;POLYA_LEN=-;TSD_LEN=33,33;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.8704	SR:HC_SR:AF	1:1:0.0182248
+chr13	47740885	MEI_bcm.pb.60x_1228	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5308,6037;POLYA_LEN=4;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.8704	SR:HC_SR:AF	1:1:0.0182248
+chr13	47741622	MEI_bcm.pb.60x_1229	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5308,6037;POLYA_LEN=4;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.2459	SR:HC_SR:AF	1:1:0.0181009
+chr13	47741622	MEI_bcm.pb.60x_1230	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5308,6038;POLYA_LEN=5;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.2459	SR:HC_SR:AF	1:1:0.0181009
+chr13	48947577	MEI_bcm.pb.60x_1231	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3451,6042;POLYA_LEN=20;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=69.1477	SR:HC_SR:AF	1:1:0.0144618
+chr13	57982394	MEI_bcm.pb.60x_1250	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3463,6090;POLYA_LEN=68;TSD_LEN=18,18;3TD_LEN=0;5INV=1,3986,3997;LOCAL_COV=54.5821	SR:HC_SR:AF	2:2:0.036642
+chr13	57982394	MEI_bcm.pb.60x_1251	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3463,6090;POLYA_LEN=68;TSD_LEN=18,18;3TD_LEN=0;5INV=1,3986,3997;LOCAL_COV=54.5821	SR:HC_SR:AF	6:6:0.109926
+chr13	60647023	MEI_bcm.pb.60x_1263	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4763,6178;POLYA_LEN=149;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.7461	SR:HC_SR:AF	1:1:0.0179385
+chr13	60715404	MEI_bcm.pb.60x_1264	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5655,6045;POLYA_LEN=14;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.5849	SR:HC_SR:AF	5:5:0.0916004
+chr13	60888206	MEI_bcm.pb.60x_1267	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6053;POLYA_LEN=18;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.1968	SR:HC_SR:AF	38:19:0.631263
+chr13	61160357	MEI_bcm.pb.60x_1269	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4716,6042;POLYA_LEN=17;TSD_LEN=13,12;3TD_LEN=0;5INV=1,5545,5551;LOCAL_COV=62.5517	SR:HC_SR:AF	33:33:0.527564
+chr13	63995705	MEI_bcm.pb.60x_1277	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4277,6056;POLYA_LEN=26;TSD_LEN=18,18;3TD_LEN=0;5INV=1,5206,5202;LOCAL_COV=59.8684	SR:HC_SR:AF	18:18:0.300659
+chr13	63995714	MEI_bcm.pb.60x_1278	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4277,6054;POLYA_LEN=22;TSD_LEN=19,19;3TD_LEN=0;5INV=1,5206,5202;LOCAL_COV=59.8793	SR:HC_SR:AF	26:26:0.434207
+chr13	64975093	MEI_bcm.pb.60x_1282	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5701,6045;POLYA_LEN=14;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.9324	SR:HC_SR:AF	1:1:0.0154006
+chr13	72149089	MEI_bcm.pb.60x_1300	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4963,6104;POLYA_LEN=76;TSD_LEN=11,11;3TD_LEN=0;5INV=1,5266,5632;LOCAL_COV=72.8601	SR:HC_SR:AF	1:1:0.0137249
+chr13	72394537	MEI_bcm.pb.60x_1301	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5450,6042;POLYA_LEN=20;TSD_LEN=6,6;3TD_LEN=202;5INV=0,0,0;LOCAL_COV=65.2622	SR:HC_SR:AF	2:2:0.0306456
+chr13	77480947	MEI_bcm.pb.60x_1304	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5179,6051;POLYA_LEN=29;TSD_LEN=7,7;3TD_LEN=21;5INV=0,0,0;LOCAL_COV=50.3214	SR:HC_SR:AF	3:3:0.0596168
+chr13	77566468	MEI_bcm.pb.60x_1305	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4162,6072;POLYA_LEN=45;TSD_LEN=17,17;3TD_LEN=0;5INV=1,5295,5303;LOCAL_COV=54.5936	SR:HC_SR:AF	17:17:0.311392
+chr13	78685656	MEI_bcm.pb.60x_1310	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4185,6055;POLYA_LEN=29;TSD_LEN=7,7;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=53.0846	SR:HC_SR:AF	54:51:1.01724
+chr13	80364962	MEI_bcm.pb.60x_1316	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5927,6049;POLYA_LEN=16;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=46.7569	SR:HC_SR:AF	2:2:0.0427744
+chr13	82710084	MEI_bcm.pb.60x_1322	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4360,6058;POLYA_LEN=30;TSD_LEN=14,14;3TD_LEN=0;5INV=1,5158,5180;LOCAL_COV=62.4054	SR:HC_SR:AF	3:3:0.0480728
+chr13	85297472	MEI_bcm.pb.60x_1325	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5291,6053;POLYA_LEN=30;TSD_LEN=6,6;3TD_LEN=7;5INV=0,0,0;LOCAL_COV=60.6589	SR:HC_SR:AF	15:14:0.247284
+chr13	85766015	MEI_bcm.pb.60x_1327	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5377,6043;POLYA_LEN=21;TSD_LEN=6,6;3TD_LEN=109;5INV=0,0,0;LOCAL_COV=73.2851	SR:HC_SR:AF	4:4:0.0545814
+chr13	90497155	MEI_bcm.pb.60x_1343	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5997,6054;POLYA_LEN=29;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.3816	SR:HC_SR:AF	48:47:0.794944
+chr13	90973969	MEI_bcm.pb.60x_1344	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4484,6051;POLYA_LEN=28;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.977	SR:HC_SR:AF	2:2:0.0327993
+chr13	92685545	MEI_bcm.pb.60x_1355	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5173,6049;POLYA_LEN=27;TSD_LEN=8,8;3TD_LEN=1381;5INV=0,0,0;LOCAL_COV=35.7792	SR:HC_SR:AF	1:1:0.0279492
+chr13	101641643	MEI_bcm.pb.60x_1120	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5355,6063;POLYA_LEN=43;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.8725	SR:HC_SR:AF	6:1:0.103676
+chr13	103643881	MEI_bcm.pb.60x_1123	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5059,6073;POLYA_LEN=49;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=53.4673	SR:HC_SR:AF	49:44:0.916448
+chr13	106784084	MEI_bcm.pb.60x_1128	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6043;POLYA_LEN=12;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=63.3022	SR:HC_SR:AF	6:6:0.0947834
+chr14	24034102	MEI_bcm.pb.60x_1385	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5799,6044;POLYA_LEN=22;TSD_LEN=7,7;3TD_LEN=205;5INV=0,0,0;LOCAL_COV=49.8187	SR:HC_SR:AF	1:1:0.0200728
+chr14	26318269	MEI_bcm.pb.60x_1392	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3318,6054;POLYA_LEN=19;TSD_LEN=11,11;3TD_LEN=0;5INV=1,4191,4204;LOCAL_COV=75.1458	SR:HC_SR:AF	26:23:0.345994
+chr14	27832046	MEI_bcm.pb.60x_1395	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5605,6042;POLYA_LEN=19;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=69.8837	SR:HC_SR:AF	64:62:0.915807
+chr14	30681613	MEI_bcm.pb.60x_1402	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6121;POLYA_LEN=96;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.8347	SR:HC_SR:AF	2:2:0.0364733
+chr14	31726774	MEI_bcm.pb.60x_1404	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1599,6092;POLYA_LEN=70;TSD_LEN=16,16;3TD_LEN=142;5INV=1,4752,4748;LOCAL_COV=62.6725	SR:HC_SR:AF	1:1:0.015956
+chr14	32771734	MEI_bcm.pb.60x_1410	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5931,6124;POLYA_LEN=102;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=69.4905	SR:HC_SR:AF	1:1:0.0143905
+chr14	33670925	MEI_bcm.pb.60x_1411	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=13,6120;POLYA_LEN=93;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=50.7404	SR:HC_SR:AF	44:23:0.867159
+chr14	36205543	MEI_bcm.pb.60x_1425	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5839,6072;POLYA_LEN=45;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.6904	SR:HC_SR:AF	58:58:0.940179
+chr14	39405885	MEI_bcm.pb.60x_1432	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3063,6053;POLYA_LEN=30;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.0863	SR:HC_SR:AF	24:19:0.420416
+chr14	42755619	MEI_bcm.pb.60x_1443	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5743,6064;POLYA_LEN=43;TSD_LEN=9,10;3TD_LEN=12;5INV=0,0,0;LOCAL_COV=55.5676	SR:HC_SR:AF	3:3:0.0539883
+chr14	52201045	MEI_bcm.pb.60x_1464	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6042;POLYA_LEN=19;TSD_LEN=9,9;3TD_LEN=936;5INV=0,0,0;LOCAL_COV=58.6799	SR:HC_SR:AF	68:37:1.15883
+chr14	53803913	MEI_bcm.pb.60x_1471	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5619,6036;POLYA_LEN=14;TSD_LEN=6,6;3TD_LEN=1595;5INV=0,0,0;LOCAL_COV=73.226	SR:HC_SR:AF	1:1:0.0136564
+chr14	58753676	MEI_bcm.pb.60x_1488	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=8,6061;POLYA_LEN=28;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.3508	SR:HC_SR:AF	26:15:0.438073
+chr14	62767025	MEI_bcm.pb.60x_1499	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4,6077;POLYA_LEN=50;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=79.7196	SR:HC_SR:AF	11:7:0.137984
+chr14	66953156	MEI_bcm.pb.60x_1511	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6072;POLYA_LEN=58;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=45.7809	SR:HC_SR:AF	31:24:0.677138
+chr14	71866992	MEI_bcm.pb.60x_1518	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3956,6074;POLYA_LEN=49;TSD_LEN=11,11;3TD_LEN=0;5INV=1,5075,5090;LOCAL_COV=74.8447	SR:HC_SR:AF	2:2:0.026722
+chr14	85683242	MEI_bcm.pb.60x_1549	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6071;POLYA_LEN=49;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.028	SR:HC_SR:AF	3:3:0.046134
+chr14	89086494	MEI_bcm.pb.60x_1557	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5851,6115;POLYA_LEN=86;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=50.7766	SR:HC_SR:AF	5:5:0.0984706
+chr14	104540472	MEI_bcm.pb.60x_1369	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4,6043;POLYA_LEN=11;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=42.7948	SR:HC_SR:AF	3:2:0.070102
+chr15	23498493	MEI_bcm.pb.60x_1587	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5591,6029;POLYA_LEN=4;TSD_LEN=36,36;3TD_LEN=3;5INV=1,5821,5948;LOCAL_COV=61.0984	SR:HC_SR:AF	63:61:1.03112
+chr15	24257288	MEI_bcm.pb.60x_1589	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5932,6051;POLYA_LEN=24;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=50.5491	SR:HC_SR:AF	1:1:0.0197827
+chr15	24258582	MEI_bcm.pb.60x_1590	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5637,6076;POLYA_LEN=51;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=50.5693	SR:HC_SR:AF	1:1:0.0197748
+chr15	24469845	MEI_bcm.pb.60x_1592	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5186,6060;POLYA_LEN=34;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.8682	SR:HC_SR:AF	1:1:0.0167034
+chr15	27930651	MEI_bcm.pb.60x_1603	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5674,6055;POLYA_LEN=31;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=66.6967	SR:HC_SR:AF	55:54:0.824629
+chr15	33739645	MEI_bcm.pb.60x_1614	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6046;POLYA_LEN=15;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=46.1508	SR:HC_SR:AF	4:3:0.0866724
+chr15	37415689	MEI_bcm.pb.60x_1618	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5370,6058;POLYA_LEN=36;TSD_LEN=7,7;3TD_LEN=8;5INV=0,0,0;LOCAL_COV=52.1229	SR:HC_SR:AF	2:2:0.0383709
+chr15	45026632	MEI_bcm.pb.60x_1639	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2586,6063;POLYA_LEN=41;TSD_LEN=18,18;3TD_LEN=3;5INV=1,3043,3048;LOCAL_COV=67.8906	SR:HC_SR:AF	3:2:0.0441887
+chr15	47079724	MEI_bcm.pb.60x_1647	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5866,6056;POLYA_LEN=34;TSD_LEN=9,9;3TD_LEN=658;5INV=1,5925,5943;LOCAL_COV=76.4901	SR:HC_SR:AF	1:1:0.0130736
+chr15	47215139	MEI_bcm.pb.60x_1648	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6056;POLYA_LEN=26;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.5726	SR:HC_SR:AF	34:22:0.518509
+chr15	50897110	MEI_bcm.pb.60x_1653	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5228,6049;POLYA_LEN=27;TSD_LEN=12,12;3TD_LEN=213;5INV=1,5541,5555;LOCAL_COV=45.9227	SR:HC_SR:AF	16:13:0.348412
+chr15	51551609	MEI_bcm.pb.60x_1656	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2,6065;POLYA_LEN=44;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.491	SR:HC_SR:AF	7:5:0.103718
+chr15	54837354	MEI_bcm.pb.60x_1665	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4,6069;POLYA_LEN=42;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.3177	SR:HC_SR:AF	1:1:0.0177564
+chr15	55958937	MEI_bcm.pb.60x_1669	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2,6075;POLYA_LEN=53;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.8808	SR:HC_SR:AF	4:3:0.0691075
+chr15	61036760	MEI_bcm.pb.60x_1679	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4550,6070;POLYA_LEN=42;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.834	SR:HC_SR:AF	1:1:0.0161723
+chr15	61877444	MEI_bcm.pb.60x_1682	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5994,6063;POLYA_LEN=35;TSD_LEN=16,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=51.8671	SR:HC_SR:AF	1:1:0.01928
+chr15	68395673	MEI_bcm.pb.60x_1702	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1376,6043;POLYA_LEN=14;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=52.5547	SR:HC_SR:AF	11:11:0.209306
+chr15	68891271	MEI_bcm.pb.60x_1704	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5533,6054;POLYA_LEN=25;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=52.7694	SR:HC_SR:AF	5:5:0.0947519
+chr15	79492085	MEI_bcm.pb.60x_1734	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5940,6051;POLYA_LEN=29;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.822	SR:HC_SR:AF	17:17:0.294006
+chr15	98079275	MEI_bcm.pb.60x_1776	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5208,6073;POLYA_LEN=28;TSD_LEN=6,6;3TD_LEN=255;5INV=0,0,0;LOCAL_COV=63.1205	SR:HC_SR:AF	6:4:0.0950563
+chr15	100390948	MEI_bcm.pb.60x_1581	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4619,6052;POLYA_LEN=30;TSD_LEN=18,18;3TD_LEN=0;5INV=1,5026,5038;LOCAL_COV=55.9121	SR:HC_SR:AF	30:30:0.536556
+chr16	5288656	MEI_bcm.pb.60x_1869	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5079,6043;POLYA_LEN=20;TSD_LEN=9,9;3TD_LEN=49;5INV=1,5403,5388;LOCAL_COV=51.0753	SR:HC_SR:AF	7:7:0.137053
+chr16	17661451	MEI_bcm.pb.60x_1802	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5777,6058;POLYA_LEN=32;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=48.2173	SR:HC_SR:AF	10:9:0.207394
+chr16	34187672	MEI_bcm.pb.60x_1850	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=874,6052;POLYA_LEN=20;TSD_LEN=15,15;3TD_LEN=0;5INV=1,2475,2490;LOCAL_COV=67.5653	SR:HC_SR:AF	29:29:0.429214
+chr16	34246876	MEI_bcm.pb.60x_1851	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5341,6033;POLYA_LEN=11;TSD_LEN=6,6;3TD_LEN=28;5INV=0,0,0;LOCAL_COV=45.9117	SR:HC_SR:AF	4:4:0.0871238
+chr16	50794566	MEI_bcm.pb.60x_1866	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5831,6024;POLYA_LEN=2;TSD_LEN=6,6;3TD_LEN=1409;5INV=0,0,0;LOCAL_COV=64.1077	SR:HC_SR:AF	1:1:0.0155988
+chr16	85163814	MEI_bcm.pb.60x_1967	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3990,6033;POLYA_LEN=11;TSD_LEN=6,6;3TD_LEN=2516;5INV=0,0,0;LOCAL_COV=39.8364	SR:HC_SR:AF	1:1:0.0251027
+chr16	85984248	MEI_bcm.pb.60x_1968	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4758,6133;POLYA_LEN=110;TSD_LEN=9,9;3TD_LEN=1;5INV=0,0,0;LOCAL_COV=34.183	SR:HC_SR:AF	1:1:0.0292543
+chr17	5983105	MEI_bcm.pb.60x_2101	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2531,6035;POLYA_LEN=13;TSD_LEN=6,6;3TD_LEN=590;5INV=1,2886,5522;LOCAL_COV=49.925	SR:HC_SR:AF	8:5:0.16024
+chr17	6438320	MEI_bcm.pb.60x_2122	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5954,6060;POLYA_LEN=30;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=36.8713	SR:HC_SR:AF	17:17:0.461063
+chr17	15607872	MEI_bcm.pb.60x_1994	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3843,6045;POLYA_LEN=15;TSD_LEN=15,15;3TD_LEN=0;5INV=1,4389,5399;LOCAL_COV=48.5182	SR:HC_SR:AF	5:5:0.103054
+chr17	30071293	MEI_bcm.pb.60x_2025	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4817,6040;POLYA_LEN=18;TSD_LEN=7,7;3TD_LEN=26;5INV=0,0,0;LOCAL_COV=61.1216	SR:HC_SR:AF	12:11:0.19633
+chr17	33091497	MEI_bcm.pb.60x_2034	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4693,6059;POLYA_LEN=37;TSD_LEN=7,7;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=46.8358	SR:HC_SR:AF	1:1:0.0213512
+chr17	35508787	MEI_bcm.pb.60x_2036	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5879,6062;POLYA_LEN=32;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=47.2156	SR:HC_SR:AF	4:4:0.0847178
+chr17	35945153	MEI_bcm.pb.60x_2037	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4442,6062;POLYA_LEN=39;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=48.3688	SR:HC_SR:AF	26:20:0.537537
+chr17	66641167	MEI_bcm.pb.60x_2129	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2,6064;POLYA_LEN=42;TSD_LEN=20,20;3TD_LEN=450;5INV=0,0,0;LOCAL_COV=60.3659	SR:HC_SR:AF	2:2:0.0331313
+chr17	69612117	MEI_bcm.pb.60x_2135	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5708,6050;POLYA_LEN=14;TSD_LEN=49,49;3TD_LEN=28;5INV=0,0,0;LOCAL_COV=57.9209	SR:HC_SR:AF	29:24:0.500683
+chr17	72961475	MEI_bcm.pb.60x_2147	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5609,6046;POLYA_LEN=24;TSD_LEN=6,6;3TD_LEN=2940;5INV=0,0,0;LOCAL_COV=49.4067	SR:HC_SR:AF	1:1:0.0202402
+chr18	12491258	MEI_bcm.pb.60x_2194	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2,6068;POLYA_LEN=45;TSD_LEN=10,10;3TD_LEN=168;5INV=0,0,0;LOCAL_COV=60.3239	SR:HC_SR:AF	13:7:0.215503
+chr18	15095256	MEI_bcm.pb.60x_2197	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6039;POLYA_LEN=12;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.0264	SR:HC_SR:AF	55:35:1.01802
+chr18	21026931	MEI_bcm.pb.60x_2202	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5545,6084;POLYA_LEN=53;TSD_LEN=27,26;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.5089	SR:HC_SR:AF	4:4:0.0720605
+chr18	23585079	MEI_bcm.pb.60x_2211	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=13,6065;POLYA_LEN=32;TSD_LEN=20,20;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=45.175	SR:HC_SR:AF	1:1:0.0221361
+chr18	29639222	MEI_bcm.pb.60x_2219	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4852,6050;POLYA_LEN=22;TSD_LEN=13,13;3TD_LEN=0;5INV=1,5097,5789;LOCAL_COV=64.1534	SR:HC_SR:AF	24:24:0.374103
+chr18	51689856	MEI_bcm.pb.60x_2254	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6073;POLYA_LEN=51;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.3786	SR:HC_SR:AF	33:19:0.585328
+chr18	53899365	MEI_bcm.pb.60x_2262	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6036;POLYA_LEN=9;TSD_LEN=17,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=53.0043	SR:HC_SR:AF	7:5:0.132065
+chr18	53961962	MEI_bcm.pb.60x_2263	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5974,6057;POLYA_LEN=35;TSD_LEN=6,6;3TD_LEN=36;5INV=0,0,0;LOCAL_COV=53.4336	SR:HC_SR:AF	5:5:0.0935741
+chr18	69865432	MEI_bcm.pb.60x_2314	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3762,6040;POLYA_LEN=18;TSD_LEN=15,15;3TD_LEN=160;5INV=0,0,0;LOCAL_COV=58.5595	SR:HC_SR:AF	1:1:0.0170766
+chr18	73447185	MEI_bcm.pb.60x_2327	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=13,6052;POLYA_LEN=23;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.3136	SR:HC_SR:AF	9:5:0.14922
+chr18	76803326	MEI_bcm.pb.60x_2334	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2747,6052;POLYA_LEN=22;TSD_LEN=14,14;3TD_LEN=0;5INV=1,5442,5428;LOCAL_COV=36.1654	SR:HC_SR:AF	1:1:0.0276507
+chr18	77248113	MEI_bcm.pb.60x_2342	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5616,6077;POLYA_LEN=61;TSD_LEN=9,9;3TD_LEN=7;5INV=0,0,0;LOCAL_COV=51.1017	SR:HC_SR:AF	23:23:0.450083
+chr19	43778480	MEI_bcm.pb.60x_2482	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5055,6031;POLYA_LEN=9;TSD_LEN=6,6;3TD_LEN=375;5INV=0,0,0;LOCAL_COV=37.5936	SR:HC_SR:AF	1:1:0.0266003
+chr19	44475389	MEI_bcm.pb.60x_2485	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3,6056;POLYA_LEN=25;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=63.9817	SR:HC_SR:AF	8:6:0.125036
+chr19	44941432	MEI_bcm.pb.60x_2487	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5939,6038;POLYA_LEN=16;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=40.9027	SR:HC_SR:AF	1:1:0.0244483
+chr19	45808004	MEI_bcm.pb.60x_2495	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2057,6032;POLYA_LEN=10;TSD_LEN=8,8;3TD_LEN=270;5INV=0,0,0;LOCAL_COV=39.9317	SR:HC_SR:AF	1:1:0.0250428
+chr2	6910466	MEI_bcm.pb.60x_3213	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5929,6036;POLYA_LEN=7;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=44.014	SR:HC_SR:AF	2:2:0.0454401
+chr2	11809156	MEI_bcm.pb.60x_2737	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5982,6082;POLYA_LEN=60;TSD_LEN=18,18;3TD_LEN=1144;5INV=0,0,0;LOCAL_COV=44.2777	SR:HC_SR:AF	1:1:0.0225847
+chr2	13043068	MEI_bcm.pb.60x_2787	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2713,6050;POLYA_LEN=28;TSD_LEN=14,14;3TD_LEN=5;5INV=1,3828,3828;LOCAL_COV=66.9545	SR:HC_SR:AF	22:22:0.328581
+chr2	13463591	MEI_bcm.pb.60x_2807	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2,6217;POLYA_LEN=185;TSD_LEN=21,21;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.7936	SR:HC_SR:AF	1:1:0.0159252
+chr2	22435716	MEI_bcm.pb.60x_3055	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5211,6078;POLYA_LEN=48;TSD_LEN=14,14;3TD_LEN=0;5INV=1,5261,5253;LOCAL_COV=70.7893	SR:HC_SR:AF	20:20:0.282529
+chr2	22968136	MEI_bcm.pb.60x_3072	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4,6067;POLYA_LEN=39;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=51.1661	SR:HC_SR:AF	28:16:0.547237
+chr2	24573888	MEI_bcm.pb.60x_3129	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2869,6130;POLYA_LEN=108;TSD_LEN=15,15;3TD_LEN=0;5INV=1,4191,4202;LOCAL_COV=63.6436	SR:HC_SR:AF	1:1:0.0157125
+chr2	34240837	MEI_bcm.pb.60x_3147	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3781,6122;POLYA_LEN=100;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.2106	SR:HC_SR:AF	1:1:0.0148786
+chr2	35534940	MEI_bcm.pb.60x_3150	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2040,6073;POLYA_LEN=46;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.4655	SR:HC_SR:AF	2:2:0.0360585
+chr2	36154102	MEI_bcm.pb.60x_3152	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4548,6073;POLYA_LEN=46;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=71.8956	SR:HC_SR:AF	29:29:0.403363
+chr2	36343108	MEI_bcm.pb.60x_3155	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6048;POLYA_LEN=17;TSD_LEN=21,21;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=63.5419	SR:HC_SR:AF	5:4:0.0786882
+chr2	49159531	MEI_bcm.pb.60x_3180	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4161,6128;POLYA_LEN=105;TSD_LEN=19,19;3TD_LEN=1;5INV=1,5243,5236;LOCAL_COV=65.4782	SR:HC_SR:AF	1:1:0.0152723
+chr2	49500048	MEI_bcm.pb.60x_3181	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3790,6073;POLYA_LEN=46;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=72.8254	SR:HC_SR:AF	9:7:0.123583
+chr2	57832933	MEI_bcm.pb.60x_3192	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4326,6030;POLYA_LEN=14;TSD_LEN=6,6;3TD_LEN=2574;5INV=0,0,0;LOCAL_COV=65.8457	SR:HC_SR:AF	68:16:1.03272
+chr2	68941772	MEI_bcm.pb.60x_3212	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6038;POLYA_LEN=11;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=63.1777	SR:HC_SR:AF	4:3:0.0633135
+chr2	70170048	MEI_bcm.pb.60x_3215	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5895,6061;POLYA_LEN=27;TSD_LEN=7,7;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=51.5288	SR:HC_SR:AF	1:1:0.0194066
+chr2	73860041	MEI_bcm.pb.60x_3222	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4863,6038;POLYA_LEN=18;TSD_LEN=7,7;3TD_LEN=158;5INV=0,0,0;LOCAL_COV=46.8865	SR:HC_SR:AF	4:2:0.0853124
+chr2	79306119	MEI_bcm.pb.60x_3232	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5686,6034;POLYA_LEN=12;TSD_LEN=6,6;3TD_LEN=1969;5INV=0,0,0;LOCAL_COV=63.9468	SR:HC_SR:AF	1:1:0.015638
+chr2	81870912	MEI_bcm.pb.60x_3237	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3,6047;POLYA_LEN=16;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=48.6464	SR:HC_SR:AF	24:15:0.493356
+chr2	100086695	MEI_bcm.pb.60x_2697	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4477,6068;POLYA_LEN=40;TSD_LEN=16,16;3TD_LEN=0;5INV=1,5773,5749;LOCAL_COV=54.6034	SR:HC_SR:AF	1:1:0.0183139
+chr2	105546702	MEI_bcm.pb.60x_2700	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5577,6047;POLYA_LEN=14;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.9136	SR:HC_SR:AF	5:5:0.0820835
+chr2	117568118	MEI_bcm.pb.60x_2733	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5723,6045;POLYA_LEN=23;TSD_LEN=51,50;3TD_LEN=444;5INV=0,0,0;LOCAL_COV=59.7508	SR:HC_SR:AF	4:2:0.0669447
+chr2	123426054	MEI_bcm.pb.60x_2762	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5356,6051;POLYA_LEN=29;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.0846	SR:HC_SR:AF	5:5:0.0780219
+chr2	126256307	MEI_bcm.pb.60x_2772	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5316,6077;POLYA_LEN=50;TSD_LEN=16,16;3TD_LEN=0;5INV=1,5666,5679;LOCAL_COV=58.5962	SR:HC_SR:AF	3:3:0.0511979
+chr2	128614581	MEI_bcm.pb.60x_2783	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5,6060;POLYA_LEN=21;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=45.6465	SR:HC_SR:AF	2:1:0.043815
+chr2	131243601	MEI_bcm.pb.60x_2788	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=8,6056;POLYA_LEN=29;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=52.3267	SR:HC_SR:AF	1:1:0.0191107
+chr2	141095339	MEI_bcm.pb.60x_2835	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5804,6051;POLYA_LEN=29;TSD_LEN=15,15;3TD_LEN=201;5INV=0,0,0;LOCAL_COV=47.749	SR:HC_SR:AF	1:1:0.0209428
+chr2	142014173	MEI_bcm.pb.60x_2839	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5998,6066;POLYA_LEN=37;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.8606	SR:HC_SR:AF	2:2:0.033411
+chr2	142014173	MEI_bcm.pb.60x_2840	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5998,6066;POLYA_LEN=37;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.8606	SR:HC_SR:AF	4:4:0.0668219
+chr2	146263358	MEI_bcm.pb.60x_2849	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4590,6088;POLYA_LEN=65;TSD_LEN=6,6;3TD_LEN=200;5INV=0,0,0;LOCAL_COV=59.1311	SR:HC_SR:AF	49:44:0.828667
+chr2	153244075	MEI_bcm.pb.60x_2866	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6067;POLYA_LEN=45;TSD_LEN=17,17;3TD_LEN=551;5INV=0,0,0;LOCAL_COV=64.501	SR:HC_SR:AF	1:1:0.0155036
+chr2	155671330	MEI_bcm.pb.60x_2870	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6098;POLYA_LEN=7;TSD_LEN=26,26;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.5451	SR:HC_SR:AF	31:19:0.480284
+chr2	177811526	MEI_bcm.pb.60x_2915	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5836,6040;POLYA_LEN=15;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=69.1085	SR:HC_SR:AF	31:31:0.44857
+chr2	178659320	MEI_bcm.pb.60x_2917	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3641,6051;POLYA_LEN=29;TSD_LEN=10,10;3TD_LEN=1260;5INV=0,0,0;LOCAL_COV=66.9489	SR:HC_SR:AF	1:1:0.0149368
+chr2	180135829	MEI_bcm.pb.60x_2921	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3820,6044;POLYA_LEN=16;TSD_LEN=15,15;3TD_LEN=0;5INV=1,4798,4808;LOCAL_COV=77.7517	SR:HC_SR:AF	2:2:0.0257229
+chr2	194362309	MEI_bcm.pb.60x_2940	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5807,6032;POLYA_LEN=10;TSD_LEN=6,6;3TD_LEN=321;5INV=0,0,0;LOCAL_COV=65.8271	SR:HC_SR:AF	68:1:1.03301
+chr2	199830323	MEI_bcm.pb.60x_2952	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3,6105;POLYA_LEN=78;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.4762	SR:HC_SR:AF	19:9:0.342489
+chr2	203545420	MEI_bcm.pb.60x_2956	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3688,6028;POLYA_LEN=6;TSD_LEN=8,8;3TD_LEN=1375;5INV=0,0,0;LOCAL_COV=34.9567	SR:HC_SR:AF	1:1:0.0286068
+chr2	204735057	MEI_bcm.pb.60x_2958	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5148,6049;POLYA_LEN=26;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.1539	SR:HC_SR:AF	4:4:0.0623501
+chr2	205282543	MEI_bcm.pb.60x_2961	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5769,6072;POLYA_LEN=39;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.3034	SR:HC_SR:AF	1:1:0.0168624
+chr2	214688847	MEI_bcm.pb.60x_2982	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4445,6031;POLYA_LEN=9;TSD_LEN=6,6;3TD_LEN=67;5INV=0,0,0;LOCAL_COV=64.5875	SR:HC_SR:AF	1:1:0.0154829
+chr2	220413507	MEI_bcm.pb.60x_3028	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4,6050;POLYA_LEN=22;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=44.9071	SR:HC_SR:AF	18:10:0.400827
+chr2	223342410	MEI_bcm.pb.60x_3041	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4996,6103;POLYA_LEN=73;TSD_LEN=19,19;3TD_LEN=0;5INV=1,5538,5549;LOCAL_COV=62.023	SR:HC_SR:AF	1:1:0.0161231
+chr2	229476836	MEI_bcm.pb.60x_3070	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6041;POLYA_LEN=9;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.8776	SR:HC_SR:AF	2:2:0.0334015
+chr2	231618014	MEI_bcm.pb.60x_3080	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5823,6091;POLYA_LEN=67;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=36.367	SR:HC_SR:AF	2:1:0.0549949
+chr2	234611158	MEI_bcm.pb.60x_3089	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4983,6057;POLYA_LEN=35;TSD_LEN=17,17;3TD_LEN=48;5INV=0,0,0;LOCAL_COV=37.2251	SR:HC_SR:AF	17:15:0.456681
+chr2	238045140	MEI_bcm.pb.60x_3103	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5381,6051;POLYA_LEN=29;TSD_LEN=8,8;3TD_LEN=100;5INV=0,0,0;LOCAL_COV=48.6499	SR:HC_SR:AF	1:1:0.020555
+chr20	6125414	MEI_bcm.pb.60x_2684	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5408,6104;POLYA_LEN=77;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=68.3452	SR:HC_SR:AF	8:8:0.117053
+chr20	9497282	MEI_bcm.pb.60x_2692	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4,6042;POLYA_LEN=15;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.8045	SR:HC_SR:AF	2:1:0.0345994
+chr20	16498854	MEI_bcm.pb.60x_2596	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5728,6050;POLYA_LEN=21;TSD_LEN=8,8;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.0695	SR:HC_SR:AF	19:18:0.345019
+chr20	17880286	MEI_bcm.pb.60x_2599	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5,6048;POLYA_LEN=25;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=43.8016	SR:HC_SR:AF	29:16:0.662076
+chr20	22521012	MEI_bcm.pb.60x_2605	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6046;POLYA_LEN=18;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.1408	SR:HC_SR:AF	1:1:0.0178124
+chr20	22721431	MEI_bcm.pb.60x_2606	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4,6121;POLYA_LEN=96;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.4956	SR:HC_SR:AF	2:2:0.035401
+chr20	39979219	MEI_bcm.pb.60x_2638	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5672,6057;POLYA_LEN=35;TSD_LEN=24,24;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.6057	SR:HC_SR:AF	3:3:0.0529982
+chr20	42915063	MEI_bcm.pb.60x_2641	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5584,6132;POLYA_LEN=102;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.9722	SR:HC_SR:AF	1:1:0.0175524
+chr20	51521650	MEI_bcm.pb.60x_2665	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5740,6027;POLYA_LEN=5;TSD_LEN=6,6;3TD_LEN=2181;5INV=0,0,0;LOCAL_COV=35.419	SR:HC_SR:AF	1:1:0.0282334
+chr21	13017866	MEI_bcm.pb.60x_2714	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5602,6042;POLYA_LEN=18;TSD_LEN=21,21;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=106.411	SR:HC_SR:AF	53:49:0.498069
+chr21	13017868	MEI_bcm.pb.60x_2715	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5600,6053;POLYA_LEN=24;TSD_LEN=22,22;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=106.409	SR:HC_SR:AF	5:4:0.0469885
+chr21	15762130	MEI_bcm.pb.60x_2729	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5947,6053;POLYA_LEN=31;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.5519	SR:HC_SR:AF	2:1:0.0341577
+chr21	18144988	MEI_bcm.pb.60x_2738	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2650,6038;POLYA_LEN=13;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.1579	SR:HC_SR:AF	3:2:0.0498688
+chr21	22253878	MEI_bcm.pb.60x_2753	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6038;POLYA_LEN=25;TSD_LEN=14,14;3TD_LEN=604;5INV=0,0,0;LOCAL_COV=57.9309	SR:HC_SR:AF	54:32:0.932145
+chr21	27696860	MEI_bcm.pb.60x_2779	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3084,6043;POLYA_LEN=13;TSD_LEN=16,16;3TD_LEN=0;5INV=1,3959,3957;LOCAL_COV=68.1628	SR:HC_SR:AF	20:20:0.293415
+chr21	36326818	MEI_bcm.pb.60x_2816	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2424,6024;POLYA_LEN=2;TSD_LEN=16,16;3TD_LEN=2486;5INV=0,0,0;LOCAL_COV=34.4105	SR:HC_SR:AF	1:1:0.0290609
+chr22	15947625	MEI_bcm.pb.60x_2988	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=41,6041;POLYA_LEN=19;TSD_LEN=25,25;3TD_LEN=489;5INV=0,0,0;LOCAL_COV=83.8707	SR:HC_SR:AF	2:1:0.0238462
+chr22	15950368	MEI_bcm.pb.60x_2989	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=41,6040;POLYA_LEN=13;TSD_LEN=7,7;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=73.3119	SR:HC_SR:AF	32:8:0.436491
+chr22	15999363	MEI_bcm.pb.60x_2990	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3,6055;POLYA_LEN=33;TSD_LEN=6,6;3TD_LEN=471;5INV=0,0,0;LOCAL_COV=61.8359	SR:HC_SR:AF	3:3:0.0485155
+chr22	16052171	MEI_bcm.pb.60x_2991	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5062,6038;POLYA_LEN=13;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=63.4042	SR:HC_SR:AF	1:1:0.0157718
+chr22	16765170	MEI_bcm.pb.60x_2999	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2,6053;POLYA_LEN=32;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.5567	SR:HC_SR:AF	31:20:0.49555
+chr22	22131981	MEI_bcm.pb.60x_3033	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6039;POLYA_LEN=13;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.766	SR:HC_SR:AF	6:4:0.107592
+chr22	22361247	MEI_bcm.pb.60x_3035	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6050;POLYA_LEN=25;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=36.1125	SR:HC_SR:AF	20:14:0.553825
+chr22	28089707	MEI_bcm.pb.60x_3065	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5650,6061;POLYA_LEN=35;TSD_LEN=51,51;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.6317	SR:HC_SR:AF	1:1:0.017658
+chr22	28089864	MEI_bcm.pb.60x_3066	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5773,6085;POLYA_LEN=52;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.6589	SR:HC_SR:AF	2:2:0.035299
+chr3	2841850	MEI_bcm.pb.60x_3464	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5482,6073;POLYA_LEN=46;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.6299	SR:HC_SR:AF	1:1:0.0164935
+chr3	21193429	MEI_bcm.pb.60x_3454	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5316,6044;POLYA_LEN=19;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.3213	SR:HC_SR:AF	3:2:0.0481376
+chr3	26482964	MEI_bcm.pb.60x_3461	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4696,6089;POLYA_LEN=67;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=66.4572	SR:HC_SR:AF	3:3:0.0451418
+chr3	38212109	MEI_bcm.pb.60x_3488	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1238,6079;POLYA_LEN=54;TSD_LEN=15,15;3TD_LEN=0;5INV=1,2264,2254;LOCAL_COV=66.3756	SR:HC_SR:AF	19:19:0.28625
+chr3	38584581	MEI_bcm.pb.60x_3491	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2,6098;POLYA_LEN=69;TSD_LEN=21,21;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=46.8156	SR:HC_SR:AF	16:12:0.341766
+chr3	41559087	MEI_bcm.pb.60x_3497	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5828,6037;POLYA_LEN=15;TSD_LEN=31,31;3TD_LEN=1841;5INV=0,0,0;LOCAL_COV=59.895	SR:HC_SR:AF	1:1:0.0166959
+chr3	41559362	MEI_bcm.pb.60x_3498	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5550,6036;POLYA_LEN=14;TSD_LEN=6,6;3TD_LEN=1486;5INV=0,0,0;LOCAL_COV=60.1136	SR:HC_SR:AF	6:6:0.099811
+chr3	51587209	MEI_bcm.pb.60x_3525	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4577,6060;POLYA_LEN=26;TSD_LEN=7,7;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=52.2905	SR:HC_SR:AF	1:1:0.0191239
+chr3	56029288	MEI_bcm.pb.60x_3540	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=13,6071;POLYA_LEN=43;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.4351	SR:HC_SR:AF	2:1:0.0296581
+chr3	59867171	MEI_bcm.pb.60x_3544	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5100,6038;POLYA_LEN=11;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=46.6989	SR:HC_SR:AF	47:45:1.00645
+chr3	61763440	MEI_bcm.pb.60x_3549	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5085,6031;POLYA_LEN=9;TSD_LEN=6,6;3TD_LEN=14;5INV=0,0,0;LOCAL_COV=66.8659	SR:HC_SR:AF	1:1:0.0149553
+chr3	75052066	MEI_bcm.pb.60x_3580	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5811,6034;POLYA_LEN=12;TSD_LEN=6,6;3TD_LEN=201;5INV=0,0,0;LOCAL_COV=72.863	SR:HC_SR:AF	29:29:0.398007
+chr3	81941849	MEI_bcm.pb.60x_3594	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6060;POLYA_LEN=30;TSD_LEN=21,20;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=53.7267	SR:HC_SR:AF	21:15:0.390867
+chr3	82095711	MEI_bcm.pb.60x_3597	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6114;POLYA_LEN=86;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=68.5083	SR:HC_SR:AF	3:2:0.0437903
+chr3	82660978	MEI_bcm.pb.60x_3599	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4528,6070;POLYA_LEN=41;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=63.2133	SR:HC_SR:AF	6:5:0.0949167
+chr3	84544130	MEI_bcm.pb.60x_3602	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4937,6081;POLYA_LEN=54;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5201,5199;LOCAL_COV=54.7109	SR:HC_SR:AF	21:21:0.383836
+chr3	85527409	MEI_bcm.pb.60x_3604	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3,6063;POLYA_LEN=35;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=66.0002	SR:HC_SR:AF	23:10:0.348484
+chr3	85818865	MEI_bcm.pb.60x_3605	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5462,6067;POLYA_LEN=45;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.067	SR:HC_SR:AF	2:2:0.034443
+chr3	86215795	MEI_bcm.pb.60x_3607	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2417,6070;POLYA_LEN=39;TSD_LEN=11,11;3TD_LEN=0;5INV=1,5330,5330;LOCAL_COV=68.6073	SR:HC_SR:AF	10:8:0.145757
+chr3	88973189	MEI_bcm.pb.60x_3611	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1986,6066;POLYA_LEN=40;TSD_LEN=16,16;3TD_LEN=0;5INV=1,4335,4335;LOCAL_COV=53.5732	SR:HC_SR:AF	37:36:0.690644
+chr3	94795580	MEI_bcm.pb.60x_3616	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5629,6036;POLYA_LEN=14;TSD_LEN=6,6;3TD_LEN=1885;5INV=0,0,0;LOCAL_COV=66.4111	SR:HC_SR:AF	1:1:0.0150577
+chr3	95517254	MEI_bcm.pb.60x_3617	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5877,6096;POLYA_LEN=74;TSD_LEN=15,15;3TD_LEN=1;5INV=0,0,0;LOCAL_COV=69.9603	SR:HC_SR:AF	3:3:0.0428815
+chr3	97055992	MEI_bcm.pb.60x_3623	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5785,6053;POLYA_LEN=28;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.4415	SR:HC_SR:AF	1:1:0.015518
+chr3	99056649	MEI_bcm.pb.60x_3627	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5,6074;POLYA_LEN=44;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=68.3471	SR:HC_SR:AF	5:3:0.073156
+chr3	102044522	MEI_bcm.pb.60x_3257	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4298,6050;POLYA_LEN=42;TSD_LEN=14,14;3TD_LEN=0;5INV=1,4419,5214;LOCAL_COV=67.6492	SR:HC_SR:AF	45:44:0.665196
+chr3	102824535	MEI_bcm.pb.60x_3260	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5241,6074;POLYA_LEN=58;TSD_LEN=6,6;3TD_LEN=18;5INV=1,5561,5575;LOCAL_COV=61.4664	SR:HC_SR:AF	27:24:0.439264
+chr3	104646887	MEI_bcm.pb.60x_3265	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5450,6046;POLYA_LEN=24;TSD_LEN=16,16;3TD_LEN=1;5INV=1,5682,5682;LOCAL_COV=71.7483	SR:HC_SR:AF	1:1:0.0139376
+chr3	110032916	MEI_bcm.pb.60x_3268	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5754,6088;POLYA_LEN=65;TSD_LEN=14,14;3TD_LEN=277;5INV=0,0,0;LOCAL_COV=62.1811	SR:HC_SR:AF	9:7:0.144739
+chr3	112226806	MEI_bcm.pb.60x_3274	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4115,6080;POLYA_LEN=58;TSD_LEN=9,9;3TD_LEN=2491;5INV=0,0,0;LOCAL_COV=63.881	SR:HC_SR:AF	1:1:0.0156541
+chr3	115729897	MEI_bcm.pb.60x_3286	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5,6057;POLYA_LEN=26;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.8039	SR:HC_SR:AF	6:6:0.107519
+chr3	123871873	MEI_bcm.pb.60x_3305	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2,6054;POLYA_LEN=26;TSD_LEN=6,6;3TD_LEN=145;5INV=0,0,0;LOCAL_COV=67.0566	SR:HC_SR:AF	13:13:0.193866
+chr3	131350929	MEI_bcm.pb.60x_3323	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6066;POLYA_LEN=43;TSD_LEN=12,12;3TD_LEN=65;5INV=0,0,0;LOCAL_COV=61.3294	SR:HC_SR:AF	13:8:0.21197
+chr3	139325592	MEI_bcm.pb.60x_3334	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4,6050;POLYA_LEN=23;TSD_LEN=17,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=53.7776	SR:HC_SR:AF	24:15:0.446282
+chr3	143402924	MEI_bcm.pb.60x_3340	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=7,6062;POLYA_LEN=60;TSD_LEN=8,8;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.8079	SR:HC_SR:AF	28:20:0.476127
+chr3	144891230	MEI_bcm.pb.60x_3343	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=764,6047;POLYA_LEN=18;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.4987	SR:HC_SR:AF	3:3:0.0512832
+chr3	151430762	MEI_bcm.pb.60x_3356	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4,6065;POLYA_LEN=43;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.5349	SR:HC_SR:AF	35:27:0.641791
+chr3	152983529	MEI_bcm.pb.60x_3359	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6029;POLYA_LEN=-;TSD_LEN=24,22;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.3428	SR:HC_SR:AF	2:1:0.0320807
+chr3	158136561	MEI_bcm.pb.60x_3365	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2217,6055;POLYA_LEN=27;TSD_LEN=17,17;3TD_LEN=0;5INV=1,4044,4018;LOCAL_COV=70.5363	SR:HC_SR:AF	3:3:0.0425313
+chr3	167547415	MEI_bcm.pb.60x_3375	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2024,6124;POLYA_LEN=93;TSD_LEN=8,8;3TD_LEN=0;5INV=1,2598,4585;LOCAL_COV=64.661	SR:HC_SR:AF	22:22:0.340236
+chr3	168202867	MEI_bcm.pb.60x_3378	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5676,6028;POLYA_LEN=6;TSD_LEN=40,40;3TD_LEN=38;5INV=0,0,0;LOCAL_COV=75.7146	SR:HC_SR:AF	1:1:0.0132075
+chr3	169552170	MEI_bcm.pb.60x_3380	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6037;POLYA_LEN=10;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.8505	SR:HC_SR:AF	56:36:0.850411
+chr3	174199423	MEI_bcm.pb.60x_3391	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5512,6081;POLYA_LEN=52;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5941,5954;LOCAL_COV=69.6752	SR:HC_SR:AF	8:8:0.114818
+chr3	174762185	MEI_bcm.pb.60x_3395	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5758,6032;POLYA_LEN=10;TSD_LEN=11,11;3TD_LEN=1604;5INV=0,0,0;LOCAL_COV=54.8628	SR:HC_SR:AF	8:1:0.145818
+chr3	175960189	MEI_bcm.pb.60x_3398	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5098,6049;POLYA_LEN=24;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=69.3712	SR:HC_SR:AF	40:37:0.576608
+chr3	176373529	MEI_bcm.pb.60x_3401	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5906,6049;POLYA_LEN=27;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=74.6814	SR:HC_SR:AF	44:44:0.589169
+chr3	181475048	MEI_bcm.pb.60x_3410	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2894,6083;POLYA_LEN=55;TSD_LEN=19,19;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=49.9808	SR:HC_SR:AF	42:34:0.840323
+chr3	186654335	MEI_bcm.pb.60x_3421	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6039;POLYA_LEN=17;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=50.6576	SR:HC_SR:AF	6:3:0.118442
+chr3	188516637	MEI_bcm.pb.60x_3427	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5166,6063;POLYA_LEN=28;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5540,5532;LOCAL_COV=56.8144	SR:HC_SR:AF	21:21:0.369625
+chr3	190706357	MEI_bcm.pb.60x_3433	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3191,6077;POLYA_LEN=55;TSD_LEN=13,13;3TD_LEN=150;5INV=1,4863,5155;LOCAL_COV=59.3015	SR:HC_SR:AF	2:2:0.033726
+chr3	193636378	MEI_bcm.pb.60x_3439	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5014,6038;POLYA_LEN=6;TSD_LEN=21,21;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.1142	SR:HC_SR:AF	35:29:0.623728
+chr3	196526976	MEI_bcm.pb.60x_3445	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5880,6042;POLYA_LEN=20;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=39.5849	SR:HC_SR:AF	1:1:0.0252622
+chr4	18161062	MEI_bcm.pb.60x_3779	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3627,6046;POLYA_LEN=18;TSD_LEN=9,9;3TD_LEN=0;5INV=1,4510,5436;LOCAL_COV=65.295	SR:HC_SR:AF	25:25:0.382878
+chr4	18192724	MEI_bcm.pb.60x_3780	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3462,6042;POLYA_LEN=15;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.002	SR:HC_SR:AF	1:1:0.0149249
+chr4	29320234	MEI_bcm.pb.60x_3815	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4238,6034;POLYA_LEN=8;TSD_LEN=15,15;3TD_LEN=0;5INV=1,4908,4918;LOCAL_COV=67.568	SR:HC_SR:AF	2:2:0.0295998
+chr4	37950492	MEI_bcm.pb.60x_3826	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1889,6038;POLYA_LEN=7;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.2064	SR:HC_SR:AF	15:10:0.27672
+chr4	40964438	MEI_bcm.pb.60x_3831	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5919,6063;POLYA_LEN=41;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.7689	SR:HC_SR:AF	1:1:0.0161894
+chr4	43284118	MEI_bcm.pb.60x_3836	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=13,6103;POLYA_LEN=76;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.4808	SR:HC_SR:AF	2:2:0.0336243
+chr4	47005771	MEI_bcm.pb.60x_3840	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5616,6046;POLYA_LEN=24;TSD_LEN=6,6;3TD_LEN=49;5INV=0,0,0;LOCAL_COV=60.4024	SR:HC_SR:AF	30:28:0.496669
+chr4	47005771	MEI_bcm.pb.60x_3841	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5616,6047;POLYA_LEN=24;TSD_LEN=6,6;3TD_LEN=49;5INV=0,0,0;LOCAL_COV=60.4024	SR:HC_SR:AF	57:50:0.943671
+chr4	56630887	MEI_bcm.pb.60x_3851	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4553,6057;POLYA_LEN=26;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5562,5602;LOCAL_COV=63.9543	SR:HC_SR:AF	6:6:0.093817
+chr4	57260503	MEI_bcm.pb.60x_3855	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4871,6065;POLYA_LEN=62;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.1691	SR:HC_SR:AF	75:61:1.11658
+chr4	58051356	MEI_bcm.pb.60x_3856	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4974,6054;POLYA_LEN=29;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=68.2804	SR:HC_SR:AF	64:60:0.937311
+chr4	65548215	MEI_bcm.pb.60x_3865	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5774,6055;POLYA_LEN=44;TSD_LEN=10,10;3TD_LEN=1178;5INV=0,0,0;LOCAL_COV=67.8359	SR:HC_SR:AF	41:34:0.6044
+chr4	65943357	MEI_bcm.pb.60x_3866	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3349,6048;POLYA_LEN=23;TSD_LEN=12,12;3TD_LEN=221;5INV=1,4092,5291;LOCAL_COV=63.3094	SR:HC_SR:AF	6:6:0.0947727
+chr4	67167924	MEI_bcm.pb.60x_3870	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5955,6112;POLYA_LEN=90;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=48.8069	SR:HC_SR:AF	1:1:0.0204889
+chr4	70227590	MEI_bcm.pb.60x_3878	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5207,6037;POLYA_LEN=8;TSD_LEN=11,11;3TD_LEN=0;5INV=1,5404,5884;LOCAL_COV=78.5092	SR:HC_SR:AF	28:28:0.356646
+chr4	70432656	MEI_bcm.pb.60x_3879	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5938,6051;POLYA_LEN=29;TSD_LEN=20,20;3TD_LEN=27;5INV=0,0,0;LOCAL_COV=54.4954	SR:HC_SR:AF	1:1:0.0183502
+chr4	79847388	MEI_bcm.pb.60x_3898	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5401,6086;POLYA_LEN=47;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=78.1237	SR:HC_SR:AF	40:38:0.512009
+chr4	82000736	MEI_bcm.pb.60x_3901	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6094;POLYA_LEN=65;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.3044	SR:HC_SR:AF	7:6:0.114184
+chr4	82000736	MEI_bcm.pb.60x_3902	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6095;POLYA_LEN=65;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.3044	SR:HC_SR:AF	6:6:0.0978723
+chr4	84396309	MEI_bcm.pb.60x_3911	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5784,6056;POLYA_LEN=24;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.7414	SR:HC_SR:AF	2:2:0.0304222
+chr4	85583926	MEI_bcm.pb.60x_3914	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5971,6043;POLYA_LEN=20;TSD_LEN=7,7;3TD_LEN=134;5INV=0,0,0;LOCAL_COV=57.1183	SR:HC_SR:AF	39:39:0.682793
+chr4	85686797	MEI_bcm.pb.60x_3916	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5591,6043;POLYA_LEN=10;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.6606	SR:HC_SR:AF	1:1:0.0170472
+chr4	88883424	MEI_bcm.pb.60x_3921	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5936,6027;POLYA_LEN=5;TSD_LEN=14,14;3TD_LEN=3;5INV=0,0,0;LOCAL_COV=53.0498	SR:HC_SR:AF	1:1:0.0188502
+chr4	99523063	MEI_bcm.pb.60x_3937	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5118,6049;POLYA_LEN=27;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.101	SR:HC_SR:AF	1:1:0.0163663
+chr4	102422592	MEI_bcm.pb.60x_3634	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4204,6089;POLYA_LEN=63;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.3252	SR:HC_SR:AF	22:18:0.383775
+chr4	103293522	MEI_bcm.pb.60x_3635	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5204,6181;POLYA_LEN=159;TSD_LEN=6,6;3TD_LEN=186;5INV=0,0,0;LOCAL_COV=77.7424	SR:HC_SR:AF	31:30:0.398753
+chr4	109327168	MEI_bcm.pb.60x_3643	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6064;POLYA_LEN=35;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.1117	SR:HC_SR:AF	2:2:0.0298011
+chr4	110941942	MEI_bcm.pb.60x_3644	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6085;POLYA_LEN=63;TSD_LEN=17,17;3TD_LEN=180;5INV=0,0,0;LOCAL_COV=67.5677	SR:HC_SR:AF	6:4:0.0887998
+chr4	111707811	MEI_bcm.pb.60x_3645	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=8,6062;POLYA_LEN=25;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.8057	SR:HC_SR:AF	27:20:0.483822
+chr4	114211543	MEI_bcm.pb.60x_3649	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3634,6059;POLYA_LEN=30;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.7618	SR:HC_SR:AF	22:17:0.36207
+chr4	119796382	MEI_bcm.pb.60x_3656	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5474,6096;POLYA_LEN=68;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5666,5653;LOCAL_COV=61.4884	SR:HC_SR:AF	4:4:0.0650529
+chr4	121102355	MEI_bcm.pb.60x_3658	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5357,6060;POLYA_LEN=30;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.9659	SR:HC_SR:AF	1:1:0.0147133
+chr4	123971814	MEI_bcm.pb.60x_3662	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4440,6051;POLYA_LEN=29;TSD_LEN=6,6;3TD_LEN=450;5INV=0,0,0;LOCAL_COV=60.2193	SR:HC_SR:AF	1:1:0.016606
+chr4	126354228	MEI_bcm.pb.60x_3673	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5359,6047;POLYA_LEN=18;TSD_LEN=14,14;3TD_LEN=0;5INV=1,5697,5703;LOCAL_COV=67.4212	SR:HC_SR:AF	2:2:0.0296643
+chr4	126675048	MEI_bcm.pb.60x_3674	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5550,6048;POLYA_LEN=26;TSD_LEN=6,6;3TD_LEN=182;5INV=0,0,0;LOCAL_COV=57.9949	SR:HC_SR:AF	34:34:0.586258
+chr4	129125008	MEI_bcm.pb.60x_3679	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6086;POLYA_LEN=68;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.4102	SR:HC_SR:AF	7:4:0.12193
+chr4	132617001	MEI_bcm.pb.60x_3686	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5887,6037;POLYA_LEN=15;TSD_LEN=51,50;3TD_LEN=1474;5INV=0,0,0;LOCAL_COV=69.5371	SR:HC_SR:AF	1:1:0.0143808
+chr4	133675267	MEI_bcm.pb.60x_3689	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5619,6037;POLYA_LEN=14;TSD_LEN=6,6;3TD_LEN=19;5INV=0,0,0;LOCAL_COV=60.0236	SR:HC_SR:AF	46:44:0.766365
+chr4	137256171	MEI_bcm.pb.60x_3694	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4513,6037;POLYA_LEN=14;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.8581	SR:HC_SR:AF	21:17:0.382806
+chr4	140056643	MEI_bcm.pb.60x_3705	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4183,6088;POLYA_LEN=66;TSD_LEN=6,6;3TD_LEN=707;5INV=0,0,0;LOCAL_COV=61.3927	SR:HC_SR:AF	1:1:0.0162886
+chr4	143592349	MEI_bcm.pb.60x_3711	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4650,6056;POLYA_LEN=28;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=50.943	SR:HC_SR:AF	1:1:0.0196298
+chr4	146684665	MEI_bcm.pb.60x_3715	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4102,6053;POLYA_LEN=25;TSD_LEN=15,15;3TD_LEN=0;5INV=1,4991,4986;LOCAL_COV=54.2191	SR:HC_SR:AF	3:3:0.0553311
+chr4	148474439	MEI_bcm.pb.60x_3718	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5088,6061;POLYA_LEN=29;TSD_LEN=13,13;3TD_LEN=0;5INV=1,5435,5428;LOCAL_COV=60.4104	SR:HC_SR:AF	3:3:0.0496603
+chr4	164310582	MEI_bcm.pb.60x_3740	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5701,6055;POLYA_LEN=29;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=73.0285	SR:HC_SR:AF	6:6:0.0821597
+chr4	168491954	MEI_bcm.pb.60x_3745	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=6,6082;POLYA_LEN=56;TSD_LEN=7,7;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=49.7489	SR:HC_SR:AF	7:3:0.140707
+chr4	173114444	MEI_bcm.pb.60x_3756	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2843,6059;POLYA_LEN=35;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.1329	SR:HC_SR:AF	5:1:0.0779631
+chr4	180249526	MEI_bcm.pb.60x_3776	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5768,6059;POLYA_LEN=54;TSD_LEN=6,6;3TD_LEN=13;5INV=0,0,0;LOCAL_COV=57.4943	SR:HC_SR:AF	7:5:0.121751
+chr5	1645659	MEI_bcm.pb.60x_4071	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5214,6068;POLYA_LEN=46;TSD_LEN=7,7;3TD_LEN=127;5INV=0,0,0;LOCAL_COV=40.1001	SR:HC_SR:AF	2:2:0.0498752
+chr5	8749409	MEI_bcm.pb.60x_4276	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3233,6085;POLYA_LEN=56;TSD_LEN=14,14;3TD_LEN=0;5INV=1,4602,5576;LOCAL_COV=64.5507	SR:HC_SR:AF	28:28:0.433768
+chr5	19180285	MEI_bcm.pb.60x_4119	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5427,6071;POLYA_LEN=42;TSD_LEN=12,12;3TD_LEN=0;5INV=1,5538,5556;LOCAL_COV=66.0455	SR:HC_SR:AF	5:5:0.0757054
+chr5	20834956	MEI_bcm.pb.60x_4121	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5785,6029;POLYA_LEN=7;TSD_LEN=6,6;3TD_LEN=8;5INV=0,0,0;LOCAL_COV=60.4609	SR:HC_SR:AF	3:3:0.0496188
+chr5	21207614	MEI_bcm.pb.60x_4122	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2,6057;POLYA_LEN=35;TSD_LEN=19,18;3TD_LEN=395;5INV=0,0,0;LOCAL_COV=66.1427	SR:HC_SR:AF	57:32:0.861773
+chr5	33633237	MEI_bcm.pb.60x_4142	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=839,6066;POLYA_LEN=39;TSD_LEN=13,13;3TD_LEN=0;5INV=1,5637,5642;LOCAL_COV=64.5273	SR:HC_SR:AF	43:43:0.666385
+chr5	33797446	MEI_bcm.pb.60x_4143	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6048;POLYA_LEN=24;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.2958	SR:HC_SR:AF	7:5:0.126592
+chr5	40041239	MEI_bcm.pb.60x_4162	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5,6061;POLYA_LEN=36;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.6038	SR:HC_SR:AF	3:2:0.0486983
+chr5	43800765	MEI_bcm.pb.60x_4180	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4481,6123;POLYA_LEN=100;TSD_LEN=9,9;3TD_LEN=89;5INV=0,0,0;LOCAL_COV=63.3224	SR:HC_SR:AF	24:21:0.379013
+chr5	53763843	MEI_bcm.pb.60x_4188	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5975,6043;POLYA_LEN=21;TSD_LEN=6,6;3TD_LEN=20;5INV=0,0,0;LOCAL_COV=61.5066	SR:HC_SR:AF	1:1:0.0162584
+chr5	57983721	MEI_bcm.pb.60x_4211	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4709,6055;POLYA_LEN=36;TSD_LEN=6,6;3TD_LEN=15;5INV=0,0,0;LOCAL_COV=51.7426	SR:HC_SR:AF	4:4:0.0773057
+chr5	57983739	MEI_bcm.pb.60x_4212	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4709,6055;POLYA_LEN=36;TSD_LEN=6,6;3TD_LEN=15;5INV=0,0,0;LOCAL_COV=51.7644	SR:HC_SR:AF	36:27:0.695459
+chr5	75560429	MEI_bcm.pb.60x_4242	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5263,6030;POLYA_LEN=8;TSD_LEN=6,6;3TD_LEN=1296;5INV=0,0,0;LOCAL_COV=73.9903	SR:HC_SR:AF	1:1:0.0135153
+chr5	75947467	MEI_bcm.pb.60x_4245	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4338,6110;POLYA_LEN=80;TSD_LEN=14,14;3TD_LEN=0;5INV=1,4921,4935;LOCAL_COV=66.4893	SR:HC_SR:AF	1:1:0.01504
+chr5	84943826	MEI_bcm.pb.60x_4268	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5294,6064;POLYA_LEN=34;TSD_LEN=8,8;3TD_LEN=7;5INV=0,0,0;LOCAL_COV=52.0018	SR:HC_SR:AF	19:11:0.365372
+chr5	90154958	MEI_bcm.pb.60x_4281	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3,6056;POLYA_LEN=43;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.6779	SR:HC_SR:AF	73:56:1.11148
+chr5	98137212	MEI_bcm.pb.60x_4296	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5721,6044;POLYA_LEN=21;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=53.2368	SR:HC_SR:AF	2:2:0.037568
+chr5	106599667	MEI_bcm.pb.60x_3949	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=8,6062;POLYA_LEN=38;TSD_LEN=10,10;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.3434	SR:HC_SR:AF	29:17:0.450707
+chr5	110144563	MEI_bcm.pb.60x_3955	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6066;POLYA_LEN=48;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.2414	SR:HC_SR:AF	58:37:1.06929
+chr5	110231824	MEI_bcm.pb.60x_3956	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5060,6054;POLYA_LEN=32;TSD_LEN=18,18;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.9262	SR:HC_SR:AF	5:4:0.0794582
+chr5	113114012	MEI_bcm.pb.60x_3960	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=629,6061;POLYA_LEN=37;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.0768	SR:HC_SR:AF	8:4:0.12485
+chr5	116113371	MEI_bcm.pb.60x_3966	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=6,6073;POLYA_LEN=51;TSD_LEN=11,11;3TD_LEN=773;5INV=0,0,0;LOCAL_COV=53.3222	SR:HC_SR:AF	4:2:0.0750157
+chr5	125704348	MEI_bcm.pb.60x_3983	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5209,6067;POLYA_LEN=45;TSD_LEN=6,6;3TD_LEN=32;5INV=0,0,0;LOCAL_COV=76.8892	SR:HC_SR:AF	2:2:0.0260115
+chr5	127436146	MEI_bcm.pb.60x_3986	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6133;POLYA_LEN=101;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.9574	SR:HC_SR:AF	1:1:0.0164049
+chr5	131273896	MEI_bcm.pb.60x_3990	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2707,6031;POLYA_LEN=9;TSD_LEN=7,7;3TD_LEN=1682;5INV=0,0,0;LOCAL_COV=27.6703	SR:HC_SR:AF	1:1:0.0361398
+chr5	137679094	MEI_bcm.pb.60x_4004	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6043;POLYA_LEN=12;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.9649	SR:HC_SR:AF	51:29:0.864921
+chr5	137794458	MEI_bcm.pb.60x_4005	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5484,6054;POLYA_LEN=24;TSD_LEN=12,12;3TD_LEN=0;5INV=1,5545,5543;LOCAL_COV=64.172	SR:HC_SR:AF	2:2:0.0311662
+chr5	144951441	MEI_bcm.pb.60x_4033	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4163,6057;POLYA_LEN=29;TSD_LEN=18,19;3TD_LEN=0;5INV=1,5217,5220;LOCAL_COV=65.0579	SR:HC_SR:AF	23:23:0.353531
+chr5	147883856	MEI_bcm.pb.60x_4041	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5969,6047;POLYA_LEN=22;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.8248	SR:HC_SR:AF	24:23:0.437758
+chr5	156192862	MEI_bcm.pb.60x_4053	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2748,6049;POLYA_LEN=20;TSD_LEN=14,14;3TD_LEN=0;5INV=1,4710,4712;LOCAL_COV=66.0588	SR:HC_SR:AF	31:31:0.469279
+chr5	158440306	MEI_bcm.pb.60x_4058	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1133,6047;POLYA_LEN=12;TSD_LEN=7,7;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=71.2907	SR:HC_SR:AF	4:1:0.0561083
+chr5	161008658	MEI_bcm.pb.60x_4063	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5535,6098;POLYA_LEN=76;TSD_LEN=16,16;3TD_LEN=154;5INV=0,0,0;LOCAL_COV=61.7354	SR:HC_SR:AF	1:1:0.0161982
+chr5	165068146	MEI_bcm.pb.60x_4072	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6112;POLYA_LEN=85;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=48.446	SR:HC_SR:AF	4:3:0.0825662
+chr6	13190793	MEI_bcm.pb.60x_4377	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=20,6054;POLYA_LEN=27;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=48.3888	SR:HC_SR:AF	17:6:0.351321
+chr6	13502811	MEI_bcm.pb.60x_4385	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6043;POLYA_LEN=15;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=46.9327	SR:HC_SR:AF	35:23:0.745749
+chr6	32482107	MEI_bcm.pb.60x_4502	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4190,6061;POLYA_LEN=32;TSD_LEN=14,14;3TD_LEN=0;5INV=1,4810,4815;LOCAL_COV=53.7208	SR:HC_SR:AF	2:2:0.0372295
+chr6	32521160	MEI_bcm.pb.60x_4517	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4853,6038;POLYA_LEN=16;TSD_LEN=8,8;3TD_LEN=64;5INV=0,0,0;LOCAL_COV=57.2176	SR:HC_SR:AF	8:8:0.139817
+chr6	32527885	MEI_bcm.pb.60x_4522	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3734,6086;POLYA_LEN=54;TSD_LEN=9,9;3TD_LEN=0;5INV=1,4785,4787;LOCAL_COV=52.8594	SR:HC_SR:AF	5:5:0.0945906
+chr6	32557242	MEI_bcm.pb.60x_4532	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4853,6041;POLYA_LEN=19;TSD_LEN=8,8;3TD_LEN=62;5INV=0,0,0;LOCAL_COV=40.662	SR:HC_SR:AF	2:2:0.049186
+chr6	32583328	MEI_bcm.pb.60x_4550	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4853,6039;POLYA_LEN=18;TSD_LEN=8,8;3TD_LEN=62;5INV=0,0,0;LOCAL_COV=51.1217	SR:HC_SR:AF	12:12:0.234734
+chr6	32583939	MEI_bcm.pb.60x_4551	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5588,6069;POLYA_LEN=42;TSD_LEN=17,17;3TD_LEN=0;5INV=1,5699,5705;LOCAL_COV=53.6629	SR:HC_SR:AF	2:2:0.0372697
+chr6	32586188	MEI_bcm.pb.60x_4552	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4190,6061;POLYA_LEN=34;TSD_LEN=14,14;3TD_LEN=0;5INV=1,4809,4815;LOCAL_COV=62.3252	SR:HC_SR:AF	8:8:0.128359
+chr6	32587409	MEI_bcm.pb.60x_4554	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3734,6070;POLYA_LEN=49;TSD_LEN=9,9;3TD_LEN=0;5INV=1,4785,4787;LOCAL_COV=55.2711	SR:HC_SR:AF	21:21:0.379945
+chr6	32645588	MEI_bcm.pb.60x_4557	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4149,6027;POLYA_LEN=0;TSD_LEN=16,16;3TD_LEN=0;5INV=1,4465,4476;LOCAL_COV=33.5913	SR:HC_SR:AF	55:55:1.63733
+chr6	34605185	MEI_bcm.pb.60x_4573	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5264,6075;POLYA_LEN=53;TSD_LEN=34,33;3TD_LEN=1861;5INV=0,0,0;LOCAL_COV=41.3852	SR:HC_SR:AF	1:1:0.0241632
+chr6	45884972	MEI_bcm.pb.60x_4601	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5985,6048;POLYA_LEN=21;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.5735	SR:HC_SR:AF	30:30:0.539826
+chr6	45956584	MEI_bcm.pb.60x_4602	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4476,6079;POLYA_LEN=50;TSD_LEN=24,24;3TD_LEN=0;5INV=1,5389,5377;LOCAL_COV=56.9975	SR:HC_SR:AF	1:1:0.0175446
+chr6	46342558	MEI_bcm.pb.60x_4604	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3570,6040;POLYA_LEN=7;TSD_LEN=16,16;3TD_LEN=0;5INV=1,4945,4944;LOCAL_COV=54.5562	SR:HC_SR:AF	1:1:0.0183297
+chr6	51076435	MEI_bcm.pb.60x_4613	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4968,6025;POLYA_LEN=3;TSD_LEN=16,16;3TD_LEN=16;5INV=0,0,0;LOCAL_COV=58.967	SR:HC_SR:AF	2:2:0.0339173
+chr6	58155489	MEI_bcm.pb.60x_4625	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5737,6112;POLYA_LEN=83;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.1352	SR:HC_SR:AF	22:22:0.399019
+chr6	62658297	MEI_bcm.pb.60x_4629	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6051;POLYA_LEN=18;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=72.6062	SR:HC_SR:AF	35:16:0.482052
+chr6	65754486	MEI_bcm.pb.60x_4632	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5721,6065;POLYA_LEN=43;TSD_LEN=51,51;3TD_LEN=407;5INV=0,0,0;LOCAL_COV=56.5869	SR:HC_SR:AF	11:10:0.194391
+chr6	65754801	MEI_bcm.pb.60x_4633	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5265,6037;POLYA_LEN=15;TSD_LEN=6,6;3TD_LEN=1171;5INV=0,0,0;LOCAL_COV=56.4396	SR:HC_SR:AF	1:1:0.0177181
+chr6	65754844	MEI_bcm.pb.60x_4634	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5274,6061;POLYA_LEN=28;TSD_LEN=27,26;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.4196	SR:HC_SR:AF	3:2:0.053173
+chr6	65755362	MEI_bcm.pb.60x_4635	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5265,6050;POLYA_LEN=3;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.2355	SR:HC_SR:AF	11:5:0.195606
+chr6	65755362	MEI_bcm.pb.60x_4636	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5835,6065;POLYA_LEN=43;TSD_LEN=12,12;3TD_LEN=288;5INV=0,0,0;LOCAL_COV=56.2355	SR:HC_SR:AF	1:1:0.0177824
+chr6	67422457	MEI_bcm.pb.60x_4640	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5040,6095;POLYA_LEN=53;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=52.7212	SR:HC_SR:AF	3:2:0.0569031
+chr6	68488837	MEI_bcm.pb.60x_4645	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3626,6094;POLYA_LEN=66;TSD_LEN=17,17;3TD_LEN=0;5INV=1,3772,3783;LOCAL_COV=72.1933	SR:HC_SR:AF	6:6:0.0831102
+chr6	70874586	MEI_bcm.pb.60x_4650	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6059;POLYA_LEN=31;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=68.8732	SR:HC_SR:AF	1:1:0.0145194
+chr6	72089805	MEI_bcm.pb.60x_4655	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6058;POLYA_LEN=51;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.2785	SR:HC_SR:AF	26:16:0.431331
+chr6	73006356	MEI_bcm.pb.60x_4656	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3701,6049;POLYA_LEN=27;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.413	SR:HC_SR:AF	1:1:0.0160223
+chr6	74225860	MEI_bcm.pb.60x_4660	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2173,6047;POLYA_LEN=19;TSD_LEN=15,15;3TD_LEN=0;5INV=1,2710,5320;LOCAL_COV=59.6252	SR:HC_SR:AF	4:4:0.0670857
+chr6	76670205	MEI_bcm.pb.60x_4662	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5199,6042;POLYA_LEN=19;TSD_LEN=15,15;3TD_LEN=1;5INV=0,0,0;LOCAL_COV=62.9803	SR:HC_SR:AF	1:1:0.015878
+chr6	77270929	MEI_bcm.pb.60x_4664	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5230,6037;POLYA_LEN=15;TSD_LEN=7,7;3TD_LEN=3;5INV=0,0,0;LOCAL_COV=56.92	SR:HC_SR:AF	3:3:0.0527056
+chr6	85238018	MEI_bcm.pb.60x_4681	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3874,6044;POLYA_LEN=23;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.6952	SR:HC_SR:AF	23:20:0.350102
+chr6	90959797	MEI_bcm.pb.60x_4689	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3648,6048;POLYA_LEN=17;TSD_LEN=13,13;3TD_LEN=0;5INV=1,5160,5164;LOCAL_COV=52.0205	SR:HC_SR:AF	27:27:0.519026
+chr6	91057929	MEI_bcm.pb.60x_4690	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5847,6039;POLYA_LEN=12;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=47.8167	SR:HC_SR:AF	7:7:0.146392
+chr6	96194208	MEI_bcm.pb.60x_4704	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5037,6036;POLYA_LEN=3;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=45.2595	SR:HC_SR:AF	4:4:0.0883792
+chr6	101835890	MEI_bcm.pb.60x_4311	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4915,6070;POLYA_LEN=48;TSD_LEN=13,13;3TD_LEN=112;5INV=0,0,0;LOCAL_COV=69.1381	SR:HC_SR:AF	34:31:0.491769
+chr6	102398215	MEI_bcm.pb.60x_4312	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6062;POLYA_LEN=38;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.404	SR:HC_SR:AF	31:22:0.513211
+chr6	113769975	MEI_bcm.pb.60x_4341	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3861,6047;POLYA_LEN=26;TSD_LEN=9,9;3TD_LEN=20;5INV=0,0,0;LOCAL_COV=57.2883	SR:HC_SR:AF	23:20:0.401478
+chr6	122918795	MEI_bcm.pb.60x_4363	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6099;POLYA_LEN=65;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.5382	SR:HC_SR:AF	1:1:0.0162501
+chr6	123326491	MEI_bcm.pb.60x_4366	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5276,6065;POLYA_LEN=42;TSD_LEN=15,16;3TD_LEN=0;5INV=1,5981,5971;LOCAL_COV=60.0062	SR:HC_SR:AF	13:13:0.216644
+chr6	130911000	MEI_bcm.pb.60x_4375	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5496,6076;POLYA_LEN=54;TSD_LEN=8,8;3TD_LEN=43;5INV=0,0,0;LOCAL_COV=58.9918	SR:HC_SR:AF	2:2:0.033903
+chr6	142128967	MEI_bcm.pb.60x_4400	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=12,6041;POLYA_LEN=14;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=69.4691	SR:HC_SR:AF	32:19:0.460636
+chr6	143575775	MEI_bcm.pb.60x_4402	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5616,6050;POLYA_LEN=24;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.9157	SR:HC_SR:AF	4:3:0.0656645
+chr6	145179798	MEI_bcm.pb.60x_4405	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4474,6043;POLYA_LEN=14;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=63.2739	SR:HC_SR:AF	6:6:0.0948258
+chr6	145179805	MEI_bcm.pb.60x_4406	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1710,6040;POLYA_LEN=18;TSD_LEN=9,9;3TD_LEN=12;5INV=1,1962,4474;LOCAL_COV=63.2767	SR:HC_SR:AF	3:3:0.0474108
+chr6	147874663	MEI_bcm.pb.60x_4408	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3412,6041;POLYA_LEN=14;TSD_LEN=19,19;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=74.9222	SR:HC_SR:AF	33:27:0.440457
+chr6	149155905	MEI_bcm.pb.60x_4410	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5122,6047;POLYA_LEN=21;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=52.4544	SR:HC_SR:AF	1:1:0.0190642
+chr6	150651168	MEI_bcm.pb.60x_4412	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4808,6049;POLYA_LEN=27;TSD_LEN=15,15;3TD_LEN=154;5INV=0,0,0;LOCAL_COV=62.005	SR:HC_SR:AF	1:1:0.0161277
+chr6	157547712	MEI_bcm.pb.60x_4421	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6037;POLYA_LEN=12;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.5953	SR:HC_SR:AF	43:4:0.655535
+chr6	161760231	MEI_bcm.pb.60x_4428	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2105,6082;POLYA_LEN=59;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.8025	SR:HC_SR:AF	27:18:0.429919
+chr7	7979397	MEI_bcm.pb.60x_4990	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6057;POLYA_LEN=30;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=64.8353	SR:HC_SR:AF	1:1:0.0154237
+chr7	8847080	MEI_bcm.pb.60x_5009	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3,6077;POLYA_LEN=55;TSD_LEN=11,11;3TD_LEN=228;5INV=0,0,0;LOCAL_COV=67.6784	SR:HC_SR:AF	35:20:0.517152
+chr7	17055084	MEI_bcm.pb.60x_4835	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5776,6086;POLYA_LEN=64;TSD_LEN=14,14;3TD_LEN=158;5INV=0,0,0;LOCAL_COV=55.5422	SR:HC_SR:AF	43:22:0.774186
+chr7	20130699	MEI_bcm.pb.60x_4839	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4497,6058;POLYA_LEN=35;TSD_LEN=19,19;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.3337	SR:HC_SR:AF	4:2:0.0722887
+chr7	26755293	MEI_bcm.pb.60x_4854	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4042,6053;POLYA_LEN=29;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.4327	SR:HC_SR:AF	6:5:0.0916973
+chr7	30774585	MEI_bcm.pb.60x_4860	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6072;POLYA_LEN=47;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=52.7622	SR:HC_SR:AF	2:1:0.0379059
+chr7	34800895	MEI_bcm.pb.60x_4868	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5199,6040;POLYA_LEN=17;TSD_LEN=10,10;3TD_LEN=44;5INV=1,5358,5377;LOCAL_COV=59.1319	SR:HC_SR:AF	59:59:0.997769
+chr7	37721173	MEI_bcm.pb.60x_4874	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4561,6084;POLYA_LEN=57;TSD_LEN=16,16;3TD_LEN=0;5INV=1,4849,4853;LOCAL_COV=63.3959	SR:HC_SR:AF	17:17:0.268156
+chr7	42490271	MEI_bcm.pb.60x_4882	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=7,6140;POLYA_LEN=114;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=63.4722	SR:HC_SR:AF	5:4:0.0787746
+chr7	43187585	MEI_bcm.pb.60x_4886	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6086;POLYA_LEN=63;TSD_LEN=17,17;3TD_LEN=1;5INV=0,0,0;LOCAL_COV=49.5659	SR:HC_SR:AF	2:1:0.0403503
+chr7	52721769	MEI_bcm.pb.60x_4904	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5735,6075;POLYA_LEN=46;TSD_LEN=25,26;3TD_LEN=8;5INV=0,0,0;LOCAL_COV=57.0714	SR:HC_SR:AF	29:26:0.508135
+chr7	57638150	MEI_bcm.pb.60x_4924	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5966,6074;POLYA_LEN=49;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=49.292	SR:HC_SR:AF	2:2:0.0405745
+chr7	63032561	MEI_bcm.pb.60x_4932	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3129,6060;POLYA_LEN=33;TSD_LEN=18,18;3TD_LEN=0;5INV=1,4457,4458;LOCAL_COV=37.7546	SR:HC_SR:AF	18:18:0.476763
+chr7	63481698	MEI_bcm.pb.60x_4935	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4950,6034;POLYA_LEN=12;TSD_LEN=6,6;3TD_LEN=1176;5INV=0,0,0;LOCAL_COV=59.8612	SR:HC_SR:AF	1:1:0.0167053
+chr7	67126191	MEI_bcm.pb.60x_4956	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5,6041;POLYA_LEN=16;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.7098	SR:HC_SR:AF	4:3:0.0669907
+chr7	70723690	MEI_bcm.pb.60x_4966	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5673,6062;POLYA_LEN=33;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=48.092	SR:HC_SR:AF	38:38:0.790152
+chr7	80694600	MEI_bcm.pb.60x_4992	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5496,6076;POLYA_LEN=54;TSD_LEN=8,8;3TD_LEN=42;5INV=0,0,0;LOCAL_COV=66.6141	SR:HC_SR:AF	1:1:0.0150118
+chr7	85272409	MEI_bcm.pb.60x_5004	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5793,6058;POLYA_LEN=47;TSD_LEN=9,9;3TD_LEN=216;5INV=0,0,0;LOCAL_COV=64.6031	SR:HC_SR:AF	29:28:0.448895
+chr7	86655540	MEI_bcm.pb.60x_5006	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5943,6054;POLYA_LEN=32;TSD_LEN=18,18;3TD_LEN=532;5INV=0,0,0;LOCAL_COV=64.7542	SR:HC_SR:AF	1:1:0.015443
+chr7	89991806	MEI_bcm.pb.60x_5014	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5610,6028;POLYA_LEN=7;TSD_LEN=7,7;3TD_LEN=16;5INV=0,0,0;LOCAL_COV=71.7114	SR:HC_SR:AF	36:1:0.502012
+chr7	89991806	MEI_bcm.pb.60x_5015	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5800,6029;POLYA_LEN=7;TSD_LEN=6,6;3TD_LEN=26;5INV=0,0,0;LOCAL_COV=71.7114	SR:HC_SR:AF	16:15:0.223117
+chr7	90702600	MEI_bcm.pb.60x_5018	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3,6079;POLYA_LEN=53;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.2216	SR:HC_SR:AF	30:22:0.490023
+chr7	102711337	MEI_bcm.pb.60x_4713	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5007,6063;POLYA_LEN=41;TSD_LEN=7,7;3TD_LEN=259;5INV=0,0,0;LOCAL_COV=45.5098	SR:HC_SR:AF	1:1:0.0219733
+chr7	102727676	MEI_bcm.pb.60x_4714	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4020,6045;POLYA_LEN=23;TSD_LEN=8,8;3TD_LEN=8;5INV=1,5005,5010;LOCAL_COV=55.9201	SR:HC_SR:AF	1:1:0.0178827
+chr7	104771669	MEI_bcm.pb.60x_4717	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=59,6058;POLYA_LEN=28;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.5486	SR:HC_SR:AF	32:16:0.488187
+chr7	108188812	MEI_bcm.pb.60x_4728	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3,6058;POLYA_LEN=31;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.0944	SR:HC_SR:AF	57:36:0.849549
+chr7	108685217	MEI_bcm.pb.60x_4729	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4698,6030;POLYA_LEN=0;TSD_LEN=17,17;3TD_LEN=0;5INV=1,4975,4990;LOCAL_COV=66.5916	SR:HC_SR:AF	3:3:0.0450507
+chr7	110844693	MEI_bcm.pb.60x_4734	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5943,6039;POLYA_LEN=18;TSD_LEN=7,7;3TD_LEN=51;5INV=0,0,0;LOCAL_COV=56.7035	SR:HC_SR:AF	51:50:0.899415
+chr7	113870924	MEI_bcm.pb.60x_4740	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5782,6038;POLYA_LEN=16;TSD_LEN=11,11;3TD_LEN=695;5INV=0,0,0;LOCAL_COV=54.1513	SR:HC_SR:AF	2:2:0.0369336
+chr7	113871173	MEI_bcm.pb.60x_4741	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5073,6074;POLYA_LEN=28;TSD_LEN=14,14;3TD_LEN=0;5INV=1,5578,5588;LOCAL_COV=54.2742	SR:HC_SR:AF	27:27:0.497474
+chr7	124421580	MEI_bcm.pb.60x_4758	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5929,6029;POLYA_LEN=7;TSD_LEN=7,7;3TD_LEN=214;5INV=0,0,0;LOCAL_COV=45.8384	SR:HC_SR:AF	2:2:0.0436315
+chr7	126526993	MEI_bcm.pb.60x_4762	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5595,6048;POLYA_LEN=26;TSD_LEN=6,6;3TD_LEN=372;5INV=0,0,0;LOCAL_COV=71.5629	SR:HC_SR:AF	1:1:0.0139737
+chr7	130766230	MEI_bcm.pb.60x_4772	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4253,6036;POLYA_LEN=14;TSD_LEN=13,12;3TD_LEN=1076;5INV=0,0,0;LOCAL_COV=64.3889	SR:HC_SR:AF	18:18:0.279551
+chr7	130767223	MEI_bcm.pb.60x_4773	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3238,6036;POLYA_LEN=14;TSD_LEN=9,9;3TD_LEN=439;5INV=0,0,0;LOCAL_COV=64.6569	SR:HC_SR:AF	9:4:0.139196
+chr7	134384241	MEI_bcm.pb.60x_4781	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4316,6047;POLYA_LEN=19;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=53.6548	SR:HC_SR:AF	4:3:0.0745506
+chr7	145233520	MEI_bcm.pb.60x_4803	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4041,6049;POLYA_LEN=-;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=53.3365	SR:HC_SR:AF	2:1:0.0374978
+chr7	145235189	MEI_bcm.pb.60x_4804	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4399,6039;POLYA_LEN=8;TSD_LEN=8,8;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.0603	SR:HC_SR:AF	2:2:0.0363238
+chr7	145235548	MEI_bcm.pb.60x_4805	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4036,6030;POLYA_LEN=-;TSD_LEN=20,20;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.5508	SR:HC_SR:AF	1:1:0.0180015
+chr7	145235700	MEI_bcm.pb.60x_4806	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5883,6039;POLYA_LEN=17;TSD_LEN=6,6;3TD_LEN=1623;5INV=0,0,0;LOCAL_COV=55.7791	SR:HC_SR:AF	1:1:0.0179279
+chr7	153229027	MEI_bcm.pb.60x_4823	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3413,6037;POLYA_LEN=0;TSD_LEN=7,7;3TD_LEN=0;5INV=1,5557,5539;LOCAL_COV=64.1341	SR:HC_SR:AF	5:4:0.0779616
+chr8	4595380	MEI_bcm.pb.60x_5203	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5970,6053;POLYA_LEN=27;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.9185	SR:HC_SR:AF	50:49:0.84863
+chr8	5971763	MEI_bcm.pb.60x_5222	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5449,6038;POLYA_LEN=14;TSD_LEN=6,6;3TD_LEN=211;5INV=0,0,0;LOCAL_COV=56.853	SR:HC_SR:AF	57:29:1.00259
+chr8	8617403	MEI_bcm.pb.60x_5278	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5785,6081;POLYA_LEN=53;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=58.7019	SR:HC_SR:AF	7:7:0.119247
+chr8	25069033	MEI_bcm.pb.60x_5161	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3216,6080;POLYA_LEN=47;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=65.8419	SR:HC_SR:AF	8:6:0.121503
+chr8	25465581	MEI_bcm.pb.60x_5164	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5164,6067;POLYA_LEN=44;TSD_LEN=16,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.2836	SR:HC_SR:AF	2:1:0.0337361
+chr8	40575664	MEI_bcm.pb.60x_5198	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6109;POLYA_LEN=82;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=56.5315	SR:HC_SR:AF	3:2:0.0530678
+chr8	50331664	MEI_bcm.pb.60x_5208	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3249,6040;POLYA_LEN=17;TSD_LEN=12,12;3TD_LEN=0;5INV=1,5222,5213;LOCAL_COV=77.4255	SR:HC_SR:AF	29:24:0.374554
+chr8	66469648	MEI_bcm.pb.60x_5237	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5825,6059;POLYA_LEN=36;TSD_LEN=8,8;3TD_LEN=46;5INV=0,0,0;LOCAL_COV=47.4607	SR:HC_SR:AF	25:24:0.526752
+chr8	68712400	MEI_bcm.pb.60x_5243	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4968,6025;POLYA_LEN=3;TSD_LEN=6,6;3TD_LEN=37;5INV=0,0,0;LOCAL_COV=52.6268	SR:HC_SR:AF	3:2:0.0570052
+chr8	71486994	MEI_bcm.pb.60x_5249	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5,6049;POLYA_LEN=11;TSD_LEN=15,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.4365	SR:HC_SR:AF	31:19:0.521565
+chr8	74869663	MEI_bcm.pb.60x_5257	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5199,6040;POLYA_LEN=18;TSD_LEN=7,7;3TD_LEN=19;5INV=1,5359,5377;LOCAL_COV=64.411	SR:HC_SR:AF	1:1:0.0155253
+chr8	82828444	MEI_bcm.pb.60x_5272	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5079,6037;POLYA_LEN=15;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5507,5518;LOCAL_COV=64.726	SR:HC_SR:AF	2:2:0.0308995
+chr8	86302815	MEI_bcm.pb.60x_5279	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5933,6048;POLYA_LEN=13;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=54.238	SR:HC_SR:AF	50:1:0.921863
+chr8	99513184	MEI_bcm.pb.60x_5308	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6056;POLYA_LEN=28;TSD_LEN=11,11;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=67.3624	SR:HC_SR:AF	1:1:0.0148451
+chr8	99648893	MEI_bcm.pb.60x_5309	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2293,6088;POLYA_LEN=61;TSD_LEN=13,13;3TD_LEN=0;5INV=1,3696,3736;LOCAL_COV=63.0921	SR:HC_SR:AF	24:21:0.380396
+chr8	101684776	MEI_bcm.pb.60x_5033	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5237,6036;POLYA_LEN=14;TSD_LEN=8,8;3TD_LEN=527;5INV=0,0,0;LOCAL_COV=53.4135	SR:HC_SR:AF	1:1:0.0187219
+chr8	104679972	MEI_bcm.pb.60x_5035	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=8,6070;POLYA_LEN=47;TSD_LEN=14,14;3TD_LEN=717;5INV=0,0,0;LOCAL_COV=61.2683	SR:HC_SR:AF	24:16:0.39172
+chr8	110620388	MEI_bcm.pb.60x_5055	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5643,6075;POLYA_LEN=52;TSD_LEN=10,10;3TD_LEN=212;5INV=0,0,0;LOCAL_COV=57.4199	SR:HC_SR:AF	10:8:0.174156
+chr8	111109083	MEI_bcm.pb.60x_5056	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5704,6055;POLYA_LEN=33;TSD_LEN=7,7;3TD_LEN=8;5INV=0,0,0;LOCAL_COV=68.5652	SR:HC_SR:AF	3:2:0.043754
+chr8	114760896	MEI_bcm.pb.60x_5063	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5256,6126;POLYA_LEN=106;TSD_LEN=6,6;3TD_LEN=8;5INV=0,0,0;LOCAL_COV=75.1704	SR:HC_SR:AF	2:1:0.0266062
+chr8	114776344	MEI_bcm.pb.60x_5064	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3882,6034;POLYA_LEN=6;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=57.53	SR:HC_SR:AF	24:20:0.417174
+chr8	114869543	MEI_bcm.pb.60x_5065	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5755,6082;POLYA_LEN=58;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=69.9159	SR:HC_SR:AF	30:28:0.429087
+chr8	118709465	MEI_bcm.pb.60x_5070	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5095,6072;POLYA_LEN=49;TSD_LEN=15,15;3TD_LEN=1;5INV=1,5623,5620;LOCAL_COV=63.3697	SR:HC_SR:AF	2:2:0.0315608
+chr8	120199736	MEI_bcm.pb.60x_5076	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3985,6048;POLYA_LEN=26;TSD_LEN=16,16;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=62.3728	SR:HC_SR:AF	5:5:0.0801631
+chr8	125149528	MEI_bcm.pb.60x_5091	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2744,6066;POLYA_LEN=38;TSD_LEN=15,15;3TD_LEN=0;5INV=1,3720,3699;LOCAL_COV=65.4567	SR:HC_SR:AF	1:1:0.0152773
+chr8	130028973	MEI_bcm.pb.60x_5103	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=4528,6043;POLYA_LEN=21;TSD_LEN=17,17;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=36.0156	SR:HC_SR:AF	1:1:0.0277657
+chr9	4265400	MEI_bcm.pb.60x_5450	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=639,6089;POLYA_LEN=67;TSD_LEN=18,18;3TD_LEN=0;5INV=1,2788,2792;LOCAL_COV=54.7555	SR:HC_SR:AF	1:1:0.018263
+chr9	5491412	MEI_bcm.pb.60x_5455	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6081;POLYA_LEN=51;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=55.3474	SR:HC_SR:AF	18:9:0.325219
+chr9	6290487	MEI_bcm.pb.60x_5457	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5368,6042;POLYA_LEN=15;TSD_LEN=15,15;3TD_LEN=0;5INV=1,5421,5395;LOCAL_COV=53.1464	SR:HC_SR:AF	54:54:1.01606
+chr9	6379136	MEI_bcm.pb.60x_5458	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2748,6054;POLYA_LEN=32;TSD_LEN=9,9;3TD_LEN=763;5INV=0,0,0;LOCAL_COV=60.1811	SR:HC_SR:AF	15:15:0.249248
+chr9	6382427	MEI_bcm.pb.60x_5459	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1944,6060;POLYA_LEN=37;TSD_LEN=6,6;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=61.2289	SR:HC_SR:AF	8:7:0.130657
+chr9	7426790	MEI_bcm.pb.60x_5473	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4568,6042;POLYA_LEN=13;TSD_LEN=13,13;3TD_LEN=0;5INV=1,5683,5643;LOCAL_COV=54.6976	SR:HC_SR:AF	7:7:0.127976
+chr9	9236606	MEI_bcm.pb.60x_5506	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3695,6062;POLYA_LEN=33;TSD_LEN=17,18;3TD_LEN=0;5INV=1,4199,4207;LOCAL_COV=57.3415	SR:HC_SR:AF	36:36:0.627818
+chr9	25497202	MEI_bcm.pb.60x_5408	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5939,6081;POLYA_LEN=51;TSD_LEN=14,14;3TD_LEN=0;5INV=1,5970,5992;LOCAL_COV=76.0972	SR:HC_SR:AF	4:4:0.0525644
+chr9	25497202	MEI_bcm.pb.60x_5409	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5992,6081;POLYA_LEN=51;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=76.0972	SR:HC_SR:AF	4:4:0.0525644
+chr9	30495886	MEI_bcm.pb.60x_5413	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4791,6051;POLYA_LEN=29;TSD_LEN=14,14;3TD_LEN=18;5INV=0,0,0;LOCAL_COV=70.201	SR:HC_SR:AF	1:1:0.0142448
+chr9	32092744	MEI_bcm.pb.60x_5416	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4735,6036;POLYA_LEN=3;TSD_LEN=6,6;3TD_LEN=19;5INV=0,0,0;LOCAL_COV=62.9112	SR:HC_SR:AF	21:18:0.333804
+chr9	32463893	MEI_bcm.pb.60x_5417	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5866,6038;POLYA_LEN=17;TSD_LEN=6,6;3TD_LEN=227;5INV=0,0,0;LOCAL_COV=52.1166	SR:HC_SR:AF	44:41:0.844261
+chr9	41447880	MEI_bcm.pb.60x_5445	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5769,6038;POLYA_LEN=16;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=60.2394	SR:HC_SR:AF	3:3:0.0498013
+chr9	72290002	MEI_bcm.pb.60x_5469	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6057;POLYA_LEN=34;TSD_LEN=8,8;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=59.7313	SR:HC_SR:AF	2:2:0.0334833
+chr9	91296202	MEI_bcm.pb.60x_5503	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5341,6072;POLYA_LEN=50;TSD_LEN=6,6;3TD_LEN=21;5INV=0,0,0;LOCAL_COV=42.8787	SR:HC_SR:AF	17:14:0.396467
+chr9	91347964	MEI_bcm.pb.60x_5505	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5960,6037;POLYA_LEN=15;TSD_LEN=9,9;3TD_LEN=334;5INV=0,0,0;LOCAL_COV=56.8465	SR:HC_SR:AF	2:1:0.0351825
+chr9	97913252	MEI_bcm.pb.60x_5517	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5885,6056;POLYA_LEN=34;TSD_LEN=16,16;3TD_LEN=236;5INV=0,0,0;LOCAL_COV=45.344	SR:HC_SR:AF	4:4:0.0882145
+chr9	102088307	MEI_bcm.pb.60x_5316	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5894,6048;POLYA_LEN=25;TSD_LEN=6,6;3TD_LEN=3;5INV=0,0,0;LOCAL_COV=49.239	SR:HC_SR:AF	5:5:0.101546
+chr9	102311380	MEI_bcm.pb.60x_5317	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2039,6094;POLYA_LEN=69;TSD_LEN=15,15;3TD_LEN=0;5INV=1,3308,4051;LOCAL_COV=69.0973	SR:HC_SR:AF	53:53:0.767034
+chr9	110964916	MEI_bcm.pb.60x_5336	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5772,6032;POLYA_LEN=10;TSD_LEN=6,6;3TD_LEN=2319;5INV=0,0,0;LOCAL_COV=61.9467	SR:HC_SR:AF	1:1:0.0161429
+chr9	114594639	MEI_bcm.pb.60x_5349	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5502,6033;POLYA_LEN=11;TSD_LEN=6,6;3TD_LEN=415;5INV=0,0,0;LOCAL_COV=59.5759	SR:HC_SR:AF	1:1:0.0167853
+chr9	115321588	MEI_bcm.pb.60x_5351	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4958,6093;POLYA_LEN=68;TSD_LEN=14,14;3TD_LEN=0;5INV=1,5174,5164;LOCAL_COV=60.3986	SR:HC_SR:AF	6:6:0.0993401
+chr9	138180928	MEI_bcm.pb.60x_5387	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3850,6040;POLYA_LEN=10;TSD_LEN=11,11;3TD_LEN=0;5INV=1,4299,5414;LOCAL_COV=63.6551	SR:HC_SR:AF	1:1:0.0157097
+chrX	4741562	MEI_bcm.pb.60x_5640	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5616,6067;POLYA_LEN=43;TSD_LEN=10,10;3TD_LEN=3;5INV=0,0,0;LOCAL_COV=32.9762	SR:HC_SR:AF	6:6:0.181949
+chrX	12041007	MEI_bcm.pb.60x_5539	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4663,6095;POLYA_LEN=74;TSD_LEN=7,7;3TD_LEN=239;5INV=0,0,0;LOCAL_COV=45.3977	SR:HC_SR:AF	2:1:0.0440551
+chrX	41775807	MEI_bcm.pb.60x_5625	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5794,6038;POLYA_LEN=16;TSD_LEN=6,6;3TD_LEN=1322;5INV=0,0,0;LOCAL_COV=34.9554	SR:HC_SR:AF	2:2:0.0572158
+chrX	46482946	MEI_bcm.pb.60x_5638	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=3137,6047;POLYA_LEN=5;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=43.7012	SR:HC_SR:AF	3:2:0.068648
+chrX	55238226	MEI_bcm.pb.60x_5659	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4948,6118;POLYA_LEN=93;TSD_LEN=7,7;3TD_LEN=25;5INV=0,0,0;LOCAL_COV=34.0781	SR:HC_SR:AF	29:3:0.850986
+chrX	55558721	MEI_bcm.pb.60x_5660	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1351,6056;POLYA_LEN=30;TSD_LEN=6,6;3TD_LEN=43;5INV=0,0,0;LOCAL_COV=28.288	SR:HC_SR:AF	20:16:0.707014
+chrX	56646406	MEI_bcm.pb.60x_5661	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1047,6049;POLYA_LEN=27;TSD_LEN=6,6;3TD_LEN=177;5INV=0,0,0;LOCAL_COV=34.6592	SR:HC_SR:AF	1:1:0.0288524
+chrX	57780006	MEI_bcm.pb.60x_5662	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5290,6063;POLYA_LEN=31;TSD_LEN=14,14;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=37.2483	SR:HC_SR:AF	11:11:0.295315
+chrX	67762921	MEI_bcm.pb.60x_5670	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5479,6063;POLYA_LEN=41;TSD_LEN=17,17;3TD_LEN=1515;5INV=1,5535,5537;LOCAL_COV=32.4682	SR:HC_SR:AF	25:21:0.769984
+chrX	72092753	MEI_bcm.pb.60x_5672	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5593,6105;POLYA_LEN=88;TSD_LEN=18,18;3TD_LEN=0;5INV=1,5776,5775;LOCAL_COV=29.4602	SR:HC_SR:AF	3:2:0.101832
+chrX	77191397	MEI_bcm.pb.60x_5674	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=2762,6133;POLYA_LEN=111;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=30.3571	SR:HC_SR:AF	2:2:0.0658824
+chrX	82440199	MEI_bcm.pb.60x_5677	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5973,6080;POLYA_LEN=58;TSD_LEN=17,17;3TD_LEN=162;5INV=0,0,0;LOCAL_COV=34.9946	SR:HC_SR:AF	1:1:0.0285758
+chrX	84807857	MEI_bcm.pb.60x_5678	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5110,6048;POLYA_LEN=18;TSD_LEN=20,20;3TD_LEN=0;5INV=1,5586,5566;LOCAL_COV=34.8124	SR:HC_SR:AF	2:2:0.0574508
+chrX	86526780	MEI_bcm.pb.60x_5679	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1515,6044;POLYA_LEN=22;TSD_LEN=16,16;3TD_LEN=0;5INV=1,2945,5648;LOCAL_COV=33.8504	SR:HC_SR:AF	1:1:0.0295417
+chrX	99009292	MEI_bcm.pb.60x_5689	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=214,6042;POLYA_LEN=11;TSD_LEN=13,13;3TD_LEN=0;5INV=1,3954,3947;LOCAL_COV=28.2067	SR:HC_SR:AF	1:1:0.0354526
+chrX	99009297	MEI_bcm.pb.60x_5690	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=215,6048;POLYA_LEN=17;TSD_LEN=13,13;3TD_LEN=0;5INV=1,3955,3947;LOCAL_COV=28.2088	SR:HC_SR:AF	7:7:0.24815
+chrX	103108254	MEI_bcm.pb.60x_5522	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=3965,6055;POLYA_LEN=29;TSD_LEN=11,11;3TD_LEN=85;5INV=1,5519,5498;LOCAL_COV=23.8261	SR:HC_SR:AF	11:11:0.461679
+chrX	107428342	MEI_bcm.pb.60x_5525	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5972,6094;POLYA_LEN=72;TSD_LEN=7,7;3TD_LEN=27;5INV=0,0,0;LOCAL_COV=38.5433	SR:HC_SR:AF	3:3:0.0778345
+chrX	111986331	MEI_bcm.pb.60x_5529	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6043;POLYA_LEN=15;TSD_LEN=13,13;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=31.9225	SR:HC_SR:AF	1:1:0.0313259
+chrX	112314526	MEI_bcm.pb.60x_5531	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=1,6054;POLYA_LEN=30;TSD_LEN=9,9;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=25.0421	SR:HC_SR:AF	2:1:0.0798655
+chrX	121558008	MEI_bcm.pb.60x_5540	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=1,6055;POLYA_LEN=34;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=33.2206	SR:HC_SR:AF	4:3:0.120407
+chrX	123531014	MEI_bcm.pb.60x_5541	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=4346,6056;POLYA_LEN=28;TSD_LEN=15,15;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=34.5944	SR:HC_SR:AF	3:2:0.0867192
+chrX	126723695	MEI_bcm.pb.60x_5545	N	<INS:ME:LINE>	.	PASS	STRAND=+;MEICoord=5077,6042;POLYA_LEN=9;TSD_LEN=8,8;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=30.8825	SR:HC_SR:AF	6:5:0.194285
+chrX	130391302	MEI_bcm.pb.60x_5558	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5016,6039;POLYA_LEN=14;TSD_LEN=12,12;3TD_LEN=0;5INV=0,0,0;LOCAL_COV=29.2704	SR:HC_SR:AF	7:7:0.239149
+chrX	155787662	MEI_bcm.pb.60x_5585	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=5176,6048;POLYA_LEN=26;TSD_LEN=6,6;3TD_LEN=913;5INV=0,0,0;LOCAL_COV=65.5023	SR:HC_SR:AF	1:1:0.0152666
+chrY	10235333	MEI_bcm.pb.60x_5692	N	<INS:ME:LINE>	.	PASS	STRAND=-;MEICoord=2,6045;POLYA_LEN=23;TSD_LEN=6,6;3TD_LEN=704;5INV=0,0,0;LOCAL_COV=26.7276	SR:HC_SR:AF	2:2:0.074829
