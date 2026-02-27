@@ -158,33 +158,26 @@ def run_blast(dataframe_name):
     # Output: Call set dataframe with "SUBFAMILY" column
 
     df_callset = pd.read_csv("./data/call-set-processed/" + dataframe_name + ".tsv", sep="\t")
-    blast_result = []
+    print(df_callset.shape)
 
+    df_callset["SUBFAMILY"]="NotYoung"
     for idx, row in tqdm(df_callset.iterrows(), total=df_callset.shape[0]):
 
-        try:
-            seqs = row["SEQ"].split(";")
-            subtypes = []
-            for seq in seqs:
-                out = open("./data/blastndb/seq.fa", 'w')
-                out.write(">SEQ"+"\n")
-                out.write(seq + "\n")
-                out.close()
-                command = "blastn -db ./data/blastndb/hg38_repeat.fa -query ./data/blastndb/seq.fa -outfmt 6"
-                result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, universal_newlines=True)
-                if len(result.stdout) == 0:
-                    subtypes.append(".")
-
-                else:
-                    df_tmp = pd.DataFrame([row.split("\t") for row in result.stdout.split("\n")])
-                    subtypes.append(df_tmp.loc[0][1])
-
-            most_common = Counter(subtypes).most_common(1)[0][0]
-            blast_result.append(most_common)
-        except:
-            blast_result.append(".")
-
-    df_callset["SUBFAMILY"] = blast_result
+        seqs = row["SEQ"].split(";")
+ 
+        for seq in seqs:
+            out = open("./data/blastndb/seq.fa", 'w')
+            out.write(">SEQ"+"\n")
+            out.write(seq + "\n")
+            out.close()
+            command = "blastn -db ./data/blastndb/hg38_repeat.fa -query ./data/blastndb/seq.fa -outfmt 6"
+            result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, universal_newlines=True)
+            if len(result.stdout) !=0:
+                df_tmp = pd.DataFrame([row.split("\t") for row in result.stdout.split("\n")])
+                if df_tmp.loc[0][1] in ["L1HS", "L1PA2"]:
+                    df_callset.loc[idx, "SUBFAMILY"]="Young"
+                    break
+                
     df_callset.to_csv("./data/call-set-processed/" + dataframe_name + ".tsv", sep="\t", index=False)
 
 
