@@ -68,7 +68,7 @@ def tumormix_add_true_positive(df_callset):
 def tumormix_evaluate_detection_performance(dataframe_name):
 
     # Function purpose: To evaluate F1, recall, precision of somatic MEI detection method in HapMap mixture
-    # Input: 1) HapMap mixture benchmarking set / 2) Call set (Dataframe converted from VCF)
+    # Input: Call set (Dataframe converted from VCF)
     # Output: F1, recall, precision score
 
     df_callset = pd.read_csv("./data/call-set-processed/" + dataframe_name + ".tsv", sep="\t")
