@@ -3,7 +3,7 @@
 # encoding: utf-8
 # all_common_functions.py
 # Seunghyun Wang, Mingyun Bae
-# Last Modified: 2026.02
+# Last Modified: 2026.03
 # —————————————————————————————————
 """
 
@@ -190,7 +190,7 @@ def find_primary(dataframe_name):
     # Output: Call set dataframe with "PRIMARY" column
 
     df_callset = pd.read_csv("./data/call-set-processed/" + dataframe_name + ".tsv", sep="\t")
-    bamfile = pysam.AlignmentFile("./data/bam/HapMapMix-PacBio-60x.bam", "r")
+    bamfile = pysam.AlignmentFile("./data/bam/" + dataframe_name + ".bam", "r")
     df_callset["PRIMARY"] = "NoPrimary"
 
     for idx, row in tqdm(df_callset.iterrows(), total=df_callset.shape[0]):
