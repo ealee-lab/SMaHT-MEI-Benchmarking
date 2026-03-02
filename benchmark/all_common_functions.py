@@ -80,6 +80,7 @@ def add_genomic_region(dataframe_name):
     df_callset_copy = df_callset.copy()
 
     df_callset_copy["Start"] = df_callset_copy["POS"].astype(int)
+    df_callset_copy["Start"] = df_callset_copy["POS"] - 1
     df_callset_copy["End"] = df_callset_copy["POS"]
 
     df_callset_copy = df_callset_copy.rename(columns={"#CHROM": "Chromosome"})
