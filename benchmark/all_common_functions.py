@@ -497,10 +497,6 @@ def find_long_read_signal(dataframe_name, bam_name1, bam_name2):
 # ====================================================================
 def run_haplotypcaller(dataframe_name, bam_name):
 
-    # Function purpose: To find long-read raw-alignment signal at each short-read call set
-    # Input: Each of call set dataframe
-    # Output: Each of call set dataframe with "CROSS-RAW" column
-
     df_callset = pd.read_csv("./data/call-set-processed/" + dataframe_name + ".tsv", sep="\t")
     bamfile = "./data/bam/" + bam_name + ".bam"
     ref = "./data/ref/human_GRCh38_no_alt_analysis_set.fasta"
@@ -519,6 +515,7 @@ def run_haplotypcaller(dataframe_name, bam_name):
 
 # ====================================================================
 def get_closest_variants(vcf, chrom, position, n):
+    
     variants = []
     variants_pos = []
     variants_neg = []
@@ -550,6 +547,7 @@ def get_snp_read(bam, chrom, position):
 
 # ====================================================================
 def get_insertion_pos_read(bam, chrom, position):
+    
     info = {}
     for read in bam.fetch(chrom, position-1, position):
         if read.mapq >= 30:
@@ -562,6 +560,7 @@ def get_insertion_pos_read(bam, chrom, position):
 
 # ====================================================================
 def get_hap(bam, vcf, chrom, pos, n):
+    
     snps = get_closest_variants(vcf, chrom, pos, n)
     if len(snps) == 0:
         return ["no_hSNPs", "no_hSNPs"]
@@ -605,6 +604,10 @@ def get_hap(bam, vcf, chrom, pos, n):
 
 # ====================================================================
 def do_phasing(dataframe_name, bam_name, n):
+    
+    # Function purpose: To do phasing for each insertion site 
+    # Input: Call set dataframe, long-read bam 
+    # Output: Each of call set dataframe with "PHASING" column
 
     vcf = pysam.VariantFile("./data/call-set-processed/candidates_vcf/" + dataframe_name + "_candidates.vcf.gz")
     df_callset = pd.read_csv("./data/call-set-processed/" + dataframe_name + ".tsv", sep="\t")
