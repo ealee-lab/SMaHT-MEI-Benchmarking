@@ -364,6 +364,39 @@ def get_long_insertions(bamfile, chrom, pos, min_len=50):
 
 
 # ====================================================================
+def get_long_insertions_phasing(bam, chrom, pos, min_len=50):
+    #bam = pysam.AlignmentFile(bam, "rb")
+    start = pos - 30
+    end = pos + 30
+    read_union = []
+    for read in bam.fetch(chrom, pos-30, pos + 30):
+        if read.is_unmapped or read.cigartuples is None:
+            continue
+
+        if read.cigar[0][0] == 4 and start < read.reference_start and read.reference_start < end:
+            read_union.append(read.query_name)
+        if read.cigar[-1][0] == 4 and start < read.reference_end and read.reference_end < end:
+            read_union.append(read.query_name)
+        
+        read_pos = 0
+        ref_pos = read.reference_start
+        for op, length in read.cigartuples:
+            if op in (0, 7, 8):  
+                ref_pos += length
+                read_pos += length
+            elif op == 1:  
+                read_pos += length
+                if abs(ref_pos-pos)<100 and length>=min_len:
+                    read_union.append(read.query_name)
+            elif op in (2, 3):  
+                ref_pos += length
+            elif op in (4, 5):  
+                read_pos += length
+                
+    read_union = list(set(read_union))
+    return read_union
+    
+# ====================================================================
 def get_clipped_sequences(samfile, chrom, pos, min_clip_len=50):
 
     # Function purpose: To get clipped sequence (raw read-alignment signal) at short-read based WGS call set
@@ -570,7 +603,7 @@ def get_hap(bam, vcf, chrom, pos, n):
     for i in range(len(snps)):
         dic_snp_base[i], dic_snp[i] = get_snp_read(bam, chrom, snps[i][1].pos)
     insertion_pos_reads = get_insertion_pos_read(bam, chrom, pos)
-    insertion = get_long_insertions(bam, chrom, pos)
+    insertion = get_long_insertions_phasing(bam, chrom, pos)
     phasing = []
     result = []
     for i in range(len(snps)):
