@@ -34,5 +34,8 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * Call set for in silico tumor-normal mixture: https://doi.org/10.5281/zenodo.17254344
 * BL2009 haplotyp-resolved DSA: https://doi.org/10.5281/zenodo.17254344
 
+### Source element tracing
+* Souce L1 tracing using internal sequence variation: https://github.com/MingyunBae/astroTE
+
 ## Citation 
 * Wang et al., [Multi-platform framework for mapping somatic retrotransposition in human tissues](), bioxriv, 2025,
