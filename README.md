@@ -18,7 +18,7 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * Script for benchmarking and multi-platform integration: Python script under ./benchmark
 * TEnCATS: https://dx.doi.org/10.17504/protocols.io.kqdg3q66ev25/v1 (For the molecular protocol)
   * NanoPal: https://github.com/Boyle-Lab/NanoPal-Snakemake
-  * Minimeral: https://github.com/Boyle-Lab/minimera/
+  * Minimera: https://github.com/Boyle-Lab/minimera/
 * HAT-seq: https://github.com/ealee-lab/HATseq-pipeline
 * Call set for HapMap mixture: https://doi.org/10.5281/zenodo.17254344
 
