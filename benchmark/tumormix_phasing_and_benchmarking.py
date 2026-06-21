@@ -3,7 +3,7 @@
 # encoding: utf-8
 # tumormix_phasing_and_benchmarking.py
 # Mingyun Bae, Seunghyun Wang
-# Last Modified: 2026.02
+# Last Modified: 2026.06
 # —————————————————————————————————
 """
 
@@ -21,8 +21,35 @@ def tumormix_add_true_positive(df_callset):
 
     df_benchmark_soma_tier2 = pd.read_csv("./data/benchmarking-set/benchmarking-set-SMaHT-sMEI-LINE1-tier2-TumorMix.tsv", sep="\t")
     df_benchmark_soma_tier3 = pd.read_csv("./data/benchmarking-set/benchmarking-set-SMaHT-sMEI-LINE1-tier3-TumorMix.tsv", sep="\t")
+    df_masking_soma_tier3 = pd.read_csv("./data/benchmarking-set/masking-set-SMaHT-sMEI-LINE1-tier3-TumorMix.tsv", sep="\t")
     num_all_soma_tier2 = df_benchmark_soma_tier2.shape[0]
 
+    # Exclude subclonal events
+    df_callset["MASKING"] = -1
+    for idx, row in df_callset.iterrows():
+        chrom = row["#CHROM"]
+        pos = row["POS"]
+        somatic_position_masking_set_tier3 = set(df_benchmark_soma_tier3[df_benchmark_soma_tier3["#CHROM"] == chrom]["POS"])
+        call_position_range = set([pos for pos in range(pos - 100, pos + 101)])
+        intersection_tier3 = list(somatic_position_benchmarking_set_tier3.intersection(call_position_range))
+
+        if len(intersection_tier3) == 1:
+            tp_position_tier3 = intersection_tier3[0]
+            soma_id_tier3 = df_benchmark_soma_tier3[(df_benchmark_soma_tier3["#CHROM"] == chrom) & (df_benchmark_soma_tier3["POS"] == tp_position_tier3)]["ID"].values[0]
+            df_callset.loc[idx, "MASKING"] = soma_id_tier3
+        elif len(intersection_tier3) > 1:
+            diff_min = 300
+            for position in intersection_tier3:
+                diff = abs(position - pos)
+                if diff < diff_min:
+                    diff_min = diff
+                    tp_position_tier3 = position
+            soma_id_tier3 = df_benchmark_soma_tier3[(df_benchmark_soma_tier3["#CHROM"] == chrom) & (df_benchmark_soma_tier3["POS"] == tp_position_tier3)]["ID"].values[0]
+            df_callset.loc[idx, "MAKSING"] = soma_id_tier3
+
+    df_callset = df_callset[df_callset["MASKING"]==-1]
+    
+    # Annotate true positive ids
     df_callset["SOMA(tier2)"] = -1
     df_callset["SOMA(tier3)"] = -1
     for idx, row in df_callset.iterrows():
