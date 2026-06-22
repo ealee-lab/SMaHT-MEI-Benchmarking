@@ -29,13 +29,13 @@ def tumormix_add_true_positive(df_callset):
     for idx, row in df_callset.iterrows():
         chrom = row["#CHROM"]
         pos = row["POS"]
-        somatic_position_masking_set_tier3 = set(df_benchmark_soma_tier3[df_benchmark_soma_tier3["#CHROM"] == chrom]["POS"])
+        somatic_position_masking_set_tier3 = set(df_masking_soma_tier3[df_masking_soma_tier3["#CHROM"] == chrom]["POS"])
         call_position_range = set([pos for pos in range(pos - 100, pos + 101)])
         intersection_tier3 = list(somatic_position_benchmarking_set_tier3.intersection(call_position_range))
 
         if len(intersection_tier3) == 1:
             tp_position_tier3 = intersection_tier3[0]
-            soma_id_tier3 = df_benchmark_soma_tier3[(df_benchmark_soma_tier3["#CHROM"] == chrom) & (df_benchmark_soma_tier3["POS"] == tp_position_tier3)]["ID"].values[0]
+            soma_id_tier3 = df_masking_soma_tier3[(df_masking_soma_tier3["#CHROM"] == chrom) & (df_masking_soma_tier3["POS"] == tp_position_tier3)]["ID"].values[0]
             df_callset.loc[idx, "MASKING"] = soma_id_tier3
         elif len(intersection_tier3) > 1:
             diff_min = 300
@@ -44,7 +44,7 @@ def tumormix_add_true_positive(df_callset):
                 if diff < diff_min:
                     diff_min = diff
                     tp_position_tier3 = position
-            soma_id_tier3 = df_benchmark_soma_tier3[(df_benchmark_soma_tier3["#CHROM"] == chrom) & (df_benchmark_soma_tier3["POS"] == tp_position_tier3)]["ID"].values[0]
+            soma_id_tier3 = df_masking_soma_tier3[(df_masking_soma_tier3["#CHROM"] == chrom) & (df_masking_soma_tier3["POS"] == tp_position_tier3)]["ID"].values[0]
             df_callset.loc[idx, "MAKSING"] = soma_id_tier3
 
     df_callset = df_callset[df_callset["MASKING"]==-1]
