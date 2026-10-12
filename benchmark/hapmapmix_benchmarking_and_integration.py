@@ -236,6 +236,7 @@ if __name__ == '__main__':
     find_primary(long)
 
     # Multi-platform integration
+    # Output: Final candidates and performance evaluation 
     short_bam = "HapMapMix-Illumina-200x"
     long_bam = "HapMapMix-PacBio-60x"
     find_common_calls(short, long)
