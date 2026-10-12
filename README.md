@@ -16,7 +16,7 @@ The SMaHT (Somatic Mosaicism across Human Tissues) MEI (Mobile Element Insertion
 * Sniffles2 (v2.6.3): https://github.com/fritzsedlazeck/Sniffles
 * Runninng commands for above WGS-based methods: ./benchmark/running_command.txt
 * Script for benchmarking and multi-platform integration: Python script under ./benchmark
-  * To test demo example, please download example dataset (benchmarking-set and call-set) and python script under ./benchmark
+  * To test demo example, please download example dataset (Input: benchmarking-set and call-set) and python script under ./benchmark (Output: Final sMEI candidates and performance evaluation)
   * To test the scripts with your own data, please replace the VCF and CRAM file paths in each Python script with those corresponding to your datasets.
 * TEnCATS: https://dx.doi.org/10.17504/protocols.io.kqdg3q66ev25/v1 (For the molecular protocol)
   * NanoPal: https://github.com/Boyle-Lab/NanoPal-Snakemake
